@@ -144,5 +144,7 @@ Date: 2022/06/20
 |<span id="131">131</span>|should|"scr-support_scrolled-continuous": pass,|rendition:flow set to scrolled-continuous when scripting is supported||||
 |<span id="132">132</span>|should|"scr-support_scrolled-doc": pass,|rendition:flow set to scrolled-doc when scripting is supported||||
 |<span id="133">133</span>|should|"scr-support_svg": pass|Scripting support in spine-level SVG||||
+<!--
     }
 }
+-->
