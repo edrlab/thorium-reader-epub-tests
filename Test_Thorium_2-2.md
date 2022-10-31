@@ -78,8 +78,8 @@ Date: 2022/10/31
 |<span id="65">65</span>|must|"ocf-url_parse-leaking-relative": fails,|Relative URL that exceeds depth of hierarchy, parsed by JS|||[#13](https://github.com/edrlab/thorium-reader-epub-tests/issues/13)|true|
 |<span id="66">66</span>|must|"ocf-url_parse-path-absolute": fails,|Root-relative URL, parsed by JS |||[#12](https://github.com/edrlab/thorium-reader-epub-tests/issues/12)|true|
 |<span id="67">67</span>|must|"ocf-url_relative": pass,|Content in relative subdirector||||y
-|<span id="68">68</span>|should|"page-layout-both": null,|page-layout-both|reflow but text ends out of box (part of the text is not displayed) ||||
-|<span id="69">69</span>|must|"page-layout-both-spread": fails,|page-layout-both spread|on the right when passing from page 1 to 2 and on the left when reading from page 3 to page 2||[#16](https://github.com/edrlab/thorium-reader-epub-tests/issues/16)||
+|<span id="68">68</span>|should|"page-layout-both": null,|page-layout-both|reflow but text ends out of box (part of the text is not displayed) |test renamed!||renamed <a href="#138">138</a>|
+|<span id="69">69</span>|must|"page-layout-both-spread": fails,|page-layout-both spread|on the right when passing from page 1 to 2 and on the left when reading from page 3 to page 2||[#16](https://github.com/edrlab/thorium-reader-epub-tests/issues/16)|renamed <a href="#139">139</a>|
 |<span id="70">70</span>|must|"pkg-collections-unknown": pass,|16 with unknown role |||||
 |<span id="71">71</span>|must|"pkg-creator-order": pass,|Creators listed in order||||true|
 |<span id="72">72</span>|must|"pkg-dir-auto_root-rtl": pass,|CSS: مغامرة جديدة! |pass in the catalog but strangely displayed in the windows heading (!مغامرة جديدة) ||||
@@ -90,11 +90,11 @@ Date: 2022/10/31
 |<span id="77">77</span>|must|"pkg-dir_rtl-root-unset": fails,|CSS: הרפתקה חדשה!|but correct in the window heading|test with same title|Fixed true[#19](https://github.com/edrlab/thorium-reader-epub-tests/issues/19)||
 |<span id="78">78</span>|must|"pkg-dir_unset-root-rtl": fails,|CSS: مغامرة جديدة!||test with same title|[#20](https://github.com/edrlab/thorium-reader-epub-tests/issues/20)||
 |<span id="79">79</span>|must|"pkg-dir_unset-root-unset": pass,|CSS: مغامرة جديدة!|||recheck||
-|<span id="80">80</span>|should|"pkg-flow-paginated": pass,|rendition:flow set to paginated|||||
-|<span id="81">81</span>|should|"pkg-flow-scrolled-continuous": pass,|rendition:flow set to scrolled-continuous|no way to set rendition to auto in thorium ||||
-|<span id="82">82</span>|should|"pkg-flow-scrolled-doc": pass,|rendition:flow set to scrolled-doc |with display:layout set to scrollable||||
+|<span id="80">80</span>|should|"pkg-flow-paginated": pass,|rendition:flow set to paginated|||test removed||
+|<span id="81">81</span>|should|"pkg-flow-scrolled-continuous": pass,|rendition:flow set to scrolled-continuous|no way to set rendition to auto in thorium ||test removed||
+|<span id="82">82</span>|should|"pkg-flow-scrolled-doc": pass,|rendition:flow set to scrolled-doc |with display:layout set to scrollable||test removed||
 |<span id="83">83</span>|must|"pkg-lang_but_not_content": pass,|Le contenu n'est pas automatiquement français||||true|
-|<span id="84">84</span>|must|"pkg-linked-records": pass,|Package metadata title! |||||
+|<span id="84">84</span>|must|"pkg-linked-records": pass,|Package metadata title! ||||true|
 |<span id="85">85</span>|must|"pkg-manifest-unknown": pass,|Manifest item with unknown properties|||||
 |<span id="86">86</span>|must|"pkg-manifest-unlisted-resource": pass,|Resource not listed in manifest |||||
 |<span id="87">87</span>|must|"pkg-meta-unknown": pass,|Meta tag with unknown property ||||true|
@@ -148,7 +148,7 @@ Date: 2022/10/31
 |<span id="135">135</span>|||ocf-font_obfuscation|||true|
 |<span id="136">136</span>|||ocf-zip-mult|treat any OCF ZIP container that specifies the [zip] file is split across multiple storage media as in error. from https://w3c.github.io/epub-specs/epub33/rs/#confreq-zip-mult|#TODO open issue|false|
 |<span id="137">137</span>|||ocf-font_obfuscation-bis|||true|
-|<span id="138">138</span>|||lay-page-layout-both|worked once but could not reproduce|#TODO open issue|false|
+|<span id="138">138</span>|||lay-page-layout-both|is <a href="#68">68</a> renamed ; worked once but could not reproduce|#TODO open issue|false|
 |<span id="139">139</span>|||lay-page-layout-both-spread|is <a href="#69">69</a> renamed    ||false|
 |<span id="140">140</span>|||lay-fxl-xhtml-icb|is <a href="#35">35</a> renamed||true|
 |<span id="141">141</span>|||mol-ignore|test apply only for RS not supporting MO||"n/a"|
@@ -157,7 +157,28 @@ Date: 2022/10/31
 |<span id="144">144</span>|||fxl-spine-overrides_behave-as-global-bis|||true|
 |<span id="145">145</span>|||lay-fxl-layout-default|||true|
 |<span id="146">146</span>|||ocf-zip-comp|||false|
-
+|<span id="147">147</span>|||scr-support-fallback|||"n/a"|
+|<span id="148">148</span>|||scr-not-support_ccscript-modify-size|||false|
+|<span id="149">149</span>|||scr-not-support_ccscript-modify-host|||false|
+|<span id="150">150</span>|||pub-external-links_consent|The *open with* box is trigged by the OS and submitted to user preferences||"n/a"|
+|<span id="151">151</span>|||pss-support_ignore-title|||false|
+|<span id="152">152</span>|||pss-support|||true|
+|<span id="154">154</span>|||<a href="https://github.com/w3c/epub-tests/tree/main/tests/pkg-linked-records_link-priority">pkg-linked-records_link-priority</a>||||
+|<span id="155">155</span>|||<a href="https://github.com/w3c/epub-tests/tree/main/tests/pkg-linked-records_link-order>pkg-linked-records_link-order</a>|||false|
+|<span id="156">156</span>|||||||
+|<span id="157">157</span>|||||||
+|<span id="158">158</span>|||||||
+|<span id="159">159</span>|||||||
+|<span id="160">160</span>|||||||
+|<span id="161">161</span>|||||||
+|<span id="162">162</span>|||||||
+|<span id="163">163</span>|||||||
+|<span id="164">164</span>|||||||
+|<span id="165">165</span>|||||||
+|<span id="166">166</span>|||||||
+|<span id="167">167</span>|||||||
+|<span id="168">168</span>|||||||
+|<span id="169">169</span>|||||||
 <!--
     }
 }
