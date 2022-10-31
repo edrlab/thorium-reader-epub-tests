@@ -34,7 +34,7 @@ Date: 2022/10/31
 |<span id="25">25</span>|must|<a href="https://w3c.github.io/epub-tests/#fxl-orientation_duplication">fxl-orientation_duplication</a>| null,||rendition:orientation duplicate|displayed by thorium|epubcheck (does that means the file shall not be rendered?|||
 |<span id="26">26</span>|should|<a href="https://w3c.github.io/epub-tests/#fxl-page-spread-center">fxl-page-spread-center</a>| fails,||rendition:page-spread-center |displayed on the right||[#6](https://github.com/edrlab/thorium-reader-epub-tests/issues/6)||
 |<span id="27">27</span>|should|<a href="https://w3c.github.io/epub-tests/#fxl-page-spread-combined">fxl-page-spread-combined</a>| pass,|lay-fxl-page-spread-combined|rendition:page-spread combined |||||
-|<span id="28">28</span>|should|<a href="https://w3c.github.io/epub-tests/#fxl-page-spread-left">fxl-page-spread-left</a>| pass,|lay-fxl-page-spread-left|rendition:page-spread-left |||||
+|<span id="28">28</span>|should|<a href="https://w3c.github.io/epub-tests/#fxl-page-spread-left">fxl-page-spread-left</a>| pass,|<a href="https://w3c.github.io/epub-tests/#lay-fxl-page-spread-left">lay-fxl-page-spread-left</a>|rendition:page-spread-left |||||
 |<span id="29">29</span>|should|<a href="https://w3c.github.io/epub-tests/#fxl-page-spread-right">fxl-page-spread-right</a>| pass,|lay-fxl-page-spread-right|rendition:page-spread-right |||||
 |<span id="30">30</span>|may|<a href="https://w3c.github.io/epub-tests/#fxl-spread-auto">fxl-spread-auto</a>| pass,|lay-fxl-spread-auto|rendition:spread auto|||||
 |<span id="31">31</span>|should|<a href="https://w3c.github.io/epub-tests/#fxl-spread-both">fxl-spread-both</a>| pass,|lay-fxl-spread-both|rendition:spread both|||||
