@@ -140,33 +140,33 @@ Date: 2022/10/31
 |<span id="131">131</span>|should|"scr-support_scrolled-continuous"| pass,||rendition:flow set to scrolled-continuous when scripting is supported|||||
 |<span id="132">132</span>|should|"scr-support_scrolled-doc"| pass,||rendition:flow set to scrolled-doc when scripting is supported|||||
 |<span id="133">133</span>|should|"scr-support_svg"| pass|Scripting support in spine-level SVG||||
-|<span id="134">134</span>||||mol-support_xhtml-load-next|||true|
-|<span id="135">135</span>||||ocf-font_obfuscation|||true|
-|<span id="136">136</span>||||ocf-zip-mult|treat any OCF ZIP container that specifies the [zip] file is split across multiple storage media as in error. from https://w3c.github.io/epub-specs/epub33/rs/#confreq-zip-mult|#TODO open issue|false|
-|<span id="137">137</span>||||ocf-font_obfuscation-bis|||true|
-|<span id="138">138</span>||||mol-timing-synchronization_svg|||true|
-|<span id="139">139</span>||||fxl-page-spread-break||#TODO open issue|false|
-|<span id="140">140</span>||||lay-fxl-svg-icb_multi|||true|
-|<span id="141">141</span>||||mol-ignore|test apply only for RS not supporting MO||"n/a"|
-|<span id="142">142</span>||||mol-support_xhtml-load|||true|
-|<span id="143">143</span>||||mol-support_xhtml|||true|
-|<span id="144">144</span>||||fxl-spine-overrides_behave-as-global-bis|||true|
-|<span id="145">145</span>||||lay-fxl-layout-default|||true|
-|<span id="146">146</span>||||ocf-zip-comp|||false|
-|<span id="147">147</span>||||scr-support-fallback|||"n/a"|
-|<span id="148">148</span>||||scr-not-support_ccscript-modify-size|||false|
-|<span id="149">149</span>||||scr-not-support_ccscript-modify-host|||false|
-|<span id="150">150</span>||||pub-external-links_consent|The *open with* box is trigged by the OS and submitted to user preferences||"n/a"|
-|<span id="151">151</span>||||pss-support_ignore-title|||false|
-|<span id="152">152</span>||||pss-support|||true|
-|<span id="154">154</span>||||<a href="https://github.com/w3c/epub-tests/tree/main/tests/pkg-linked-records_link-priority">pkg-linked-records_link-priority</a>|||false|
-|<span id="155">155</span>||||<a href="https://github.com/w3c/epub-tests/tree/main/tests/pkg-linked-records_link-order">pkg-linked-records_link-order</a>|||false|
-|<span id="156">156</span>||||lay-fxl-xhtml-icb_device_sizes|nothing is displayed|#TODO open issue|false|
-|<span id="157">157</span>||||lay-fxl-xhtml-icb_invalid_meta|||true|
-|<span id="158">158</span>||||lay-fxl-xhtml-icb_multi|||true|
-|<span id="159">159</span>||||lay-fxl-xhtml-icb_multi_declarations|||true|
-|<span id="160">160</span>||||lay-fxl-xhtml-icb_repeated-in-meta|||true|
-|<span id="161">161</span>||||lay-fxl-xhtml-icb_units|||true|
-|<span id="162">162</span>||||lay-reflow-align-x-cente|This is affected by user choice in the settings panel||true|
-|<span id="163">163</span>||||lay-rendition-flow-pre-pag|This disable user choice in settings panel||true|
-|<span id="164">164</span>|||lay-viewport-meta-prop|User text size setting (i.e. zoom) is disable|||false|
+|<span id="134">134</span>|should|||<a href="https://w3c.github.io/epub-tests/#mol-support_xhtml-load-next">mol-support_xhtml-load-next</a>|||true|
+|<span id="135">135</span>|should|||<a href="https://w3c.github.io/epub-tests/#ocf-font_obfuscation">ocf-font_obfuscation</a>|||true|
+|<span id="136">136</span>|must|||<a href="https://w3c.github.io/epub-tests/#ocf-zip-mult">ocf-zip-mult</a>|treat any OCF ZIP container that specifies the [zip] file is split across multiple storage media as in error. from https://w3c.github.io/epub-specs/epub33/rs/#confreq-zip-mult|#TODO open issue|false|
+|<span id="137">137</span>|should|||<a href="https://w3c.github.io/epub-tests/#ocf-font_obfuscation-bis">ocf-font_obfuscation-bis</a>|||true|
+|<span id="138">138</span>|must|||<a href="https://w3c.github.io/epub-tests/#mol-timing-synchronization_svg">mol-timing-synchronization_svg</a>|||true|
+|<span id="139">139</span>|must|||<a href="https://w3c.github.io/epub-tests/#fxl-page-spread-break">fxl-page-spread-break</a>||#TODO open issue|false|
+|<span id="140">140</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-fxl-svg-icb_multi">lay-fxl-svg-icb_multi</a>|||true|
+|<span id="141">141</span>|must|||<a href="https://w3c.github.io/epub-tests/#mol-ignore">mol-ignore</a>|test apply only for RS not supporting MO||"n/a"|
+|<span id="142">142</span>|must|||<a href="https://w3c.github.io/epub-tests/#mol-support_xhtml-load">mol-support_xhtml-load</a>|||true|
+|<span id="143">143</span>|must|||<a href="https://w3c.github.io/epub-tests/#mol-support_xhtml">mol-support_xhtml</a>|||true|
+|<span id="144">144</span>|must|||<a href="https://w3c.github.io/epub-tests/#fxl-spine-overrides_behave-as-global-bis">fxl-spine-overrides_behave-as-global-bis</a>|||true|
+|<span id="145">145</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-fxl-layout-default">lay-fxl-layout-default</a>|||true|
+|<span id="146">146</span>|must|||<a href="https://w3c.github.io/epub-tests/#ocf-zip-comp">ocf-zip-comp</a>|||false|
+|<span id="147">147</span>|must|||<a href="https://w3c.github.io/epub-tests/#scr-support-fallback">scr-support-fallback</a>|||"n/a"|
+|<span id="148">148</span>||||<a href="https://w3c.github.io/epub-tests/#scr-not-support_ccscript-modify-size">scr-not-support_ccscript-modify-size</a>|must||false|
+|<span id="149">149</span>|must|||<a href="https://w3c.github.io/epub-tests/#scr-not-support_ccscript-modify-host">scr-not-support_ccscript-modify-host</a>|must||false|
+|<span id="150">150</span>|should|||<a href="https://w3c.github.io/epub-tests/#pub-external-links_consent">pub-external-links_consent</a>|The *open with* box is trigged by the OS and submitted to user preferences||"n/a"|
+|<span id="151">151</span>|must|||<a href="https://w3c.github.io/epub-tests/#pss-support_ignore-title">pss-support_ignore-title</a>|||false|
+|<span id="152">152</span>|may|||<a href="https://w3c.github.io/epub-tests/#pss-support">pss-support</a>|||true|
+|<span id="154">154</span>|must|||<a href="https://w3c.github.io/epub-tests/#pkg-linked-records_link-priority">pkg-linked-records_link-priority</a>|||false|
+|<span id="155">155</span>|must|||<a href="https://w3c.github.io/epub-tests/#pkg-linked-records_link-order">pkg-linked-records_link-order</a>|||false|
+|<span id="156">156</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-fxl-xhtml-icb_device_sizes">lay-fxl-xhtml-icb_device_sizes</a>|nothing is displayed|#TODO open issue|false|
+|<span id="157">157</span>|should|||<a href="https://w3c.github.io/epub-tests/#lay-fxl-xhtml-icb_invalid_meta">lay-fxl-xhtml-icb_invalid_meta</a>|||true|
+|<span id="158">158</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-fxl-xhtml-icb_multi">lay-fxl-xhtml-icb_multi</a>|||true|
+|<span id="159">159</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-fxl-xhtml-icb_multi_declarations">lay-fxl-xhtml-icb_multi_declarations</a>|||true|
+|<span id="160">160</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-fxl-xhtml-icb_repeated-in-meta">lay-fxl-xhtml-icb_repeated-in-meta</a>|||true|
+|<span id="161">161</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-fxl-xhtml-icb_units">lay-fxl-xhtml-icb_units</a>|||true|
+|<span id="162">162</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-reflow-align-x-center">lay-reflow-align-x-center</a>|This is affected by user choice in the settings panel||true|
+|<span id="163">163</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-rendition-flow-pre-pag">lay-rendition-flow-pre-pag</a>|This disable user choice in settings panel||true|
+|<span id="164">164</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-viewport-meta-prop">lay-viewport-meta-prop</a>|User text size setting (i.e. zoom) is disabled||false|
