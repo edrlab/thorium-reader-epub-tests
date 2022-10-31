@@ -5,8 +5,8 @@ Date: 2022/10/31
 ---
 
 
-|<span id="N°">N°</span>|req.|Title/name June|report Th20|Title/name november|Comment|TestComment|Action|report Th22|
-|---|---|---|---|---|---|---|---|---|---|
+|<span id="N°">N°</span>|req.|Title/name|report Th20|If title/name changed|Comment|TestComment|Action|report Th22|
+|---|---|---|---|---|---|---|---|---|
 |<span id="1">1</span>|must|"cnt-css-fonts"| pass,||CSS support for font resources|||||
 |<span id="2">2</span>|must|"cnt-css-support"| fails,||Acid2 test|picture not displayed as reference rendering|test is not specific enough|[test removed](https://github.com/w3c/epub-tests/issues/164)||
 |<span id="3">3</span>|must|"cnt-mathml-support"| pass,||Support for Presentation MathML|with mathJax enabled / fails on Debian||[Debian issue opened @thorium-reader](https://github.com/edrlab/thorium-reader/issues/1714)|true|
@@ -27,30 +27,30 @@ Date: 2022/10/31
 |<span id="18">18</span>|must|"css-epub-word-break"| pass,||EPUB CSS word-break ||words break without hyphenation ?|||
 |<span id="19">19</span>|must|"css-epub-writing-mode"| pass,||EPUB CSS writing-mode|||||
 |<span id="20">20</span>|must|"fxl-layout-duplication"| n/a,||rendition:layout duplication||test TBD with epubcheck?|||
-|<span id="21">21</span>|must|"fxl-layout-pre-paginated"| n/a,||rendition:layout pre-paginated spine order|1 page displayed, but with text over text |missing a test pass information|||
-|<span id="22">22</span>|must|"fxl-layout-pre-paginated-spreads"| pass,||rendition:layout pre-paginated spreads|||||
-|<span id="23">23</span>|should|"fxl-orientation-landscape"| pass,||landscape is Thorium default |||||
-|<span id="24">24</span>|must|"fxl-orientation_default"| pass,||rendition:orientation default|There is no way to set orientation to default in Thorium||||
+|<span id="21">21</span>|must|"fxl-layout-pre-paginated"| n/a,|lay-fxl-layout-pre-paginated|rendition:layout pre-paginated spine order|1 page displayed, but with text over text |missing a test pass information|||
+|<span id="22">22</span>|must|"fxl-layout-pre-paginated-spreads"| pass,|lay-fxl-layout-pre-paginated-spreads|rendition:layout pre-paginated spreads|||||
+|<span id="23">23</span>|should|"fxl-orientation-landscape"| pass,|lay-fxl-orientation-landscape|landscape is Thorium default |||||
+|<span id="24">24</span>|must|"fxl-orientation_default"| pass,|lay-fxl-orientation_default|rendition:orientation default|There is no way to set orientation to default in Thorium||||
 |<span id="25">25</span>|must|"fxl-orientation_duplication"| null,||rendition:orientation duplicate|displayed by thorium|epubcheck (does that means the file shall not be rendered?|||
 |<span id="26">26</span>|should|"fxl-page-spread-center"| fails,||rendition:page-spread-center |displayed on the right||[#6](https://github.com/edrlab/thorium-reader-epub-tests/issues/6)||
-|<span id="27">27</span>|should|"fxl-page-spread-combined"| pass,||rendition:page-spread combined |||||
-|<span id="28">28</span>|should|"fxl-page-spread-left"| pass,||rendition:page-spread-left |||||
-|<span id="29">29</span>|should|"fxl-page-spread-right"| pass,||rendition:page-spread-right |||||
-|<span id="30">30</span>|ma|y"fxl-spread-auto"| pass,||rendition:spread auto|||||
-|<span id="31">31</span>|should|"fxl-spread-both"| pass,||rendition:spread both|||||
-|<span id="32">32</span>|must|"fxl-spread_default"| pass,||rendition:spread default|There is no way to set orientation in Thorium|fxl-spread-default|||
-|<span id="33">33</span>|should|"fxl-spread_landscape"| pass,||rendition:spread landscape|There is no way to set orientation in Thorium|fxl-spread-landscape|||
-|<span id="34">34</span>|must|"fxl-spread_none"| null,||rendition:spread none|what does "not in a synthetic spread" means?|fxl-spread-none|||
-|<span id="35">35</span>|must|"fxl-xhtml-icb"| pass,||XHTML content clipped outside viewport|||||
+|<span id="27">27</span>|should|"fxl-page-spread-combined"| pass,|lay-fxl-page-spread-combined|rendition:page-spread combined |||||
+|<span id="28">28</span>|should|"fxl-page-spread-left"| pass,|lay-fxl-page-spread-left|rendition:page-spread-left |||||
+|<span id="29">29</span>|should|"fxl-page-spread-right"| pass,|lay-fxl-page-spread-right|rendition:page-spread-right |||||
+|<span id="30">30</span>|ma|y"fxl-spread-auto"| pass,|lay-fxl-spread-auto|rendition:spread auto|||||
+|<span id="31">31</span>|should|"fxl-spread-both"| pass,|lay-fxl-spread-both|rendition:spread both|||||
+|<span id="32">32</span>|must|"fxl-spread_default"| pass,|lay-fxl-spread_default|rendition:spread default|There is no way to set orientation in Thorium|fxl-spread-default|||
+|<span id="33">33</span>|should|"fxl-spread_landscape"| pass,|lay-fxl-spread_landscape|rendition:spread landscape|There is no way to set orientation in Thorium|fxl-spread-landscape|||
+|<span id="34">34</span>|must|"fxl-spread_none"| null,|lay-fxl-spread_none|rendition:spread none|what does "not in a synthetic spread" means?|fxl-spread-none|||
+|<span id="35">35</span>|must|"fxl-xhtml-icb"| pass,|lay-fxl-xhtml-icb|XHTML content clipped outside viewport|||||
 |<span id="36">36</span>|must|"mol-audio"| pass,||Rendering an audio track from clipBegin to clipEnd|||||
 |<span id="37">37</span>|must|"mol-audio-exceeding-clipend"| fails,||Audio track stops if clipEnd exceeds length|reading stop at the end of first section||[#7](https://github.com/edrlab/thorium-reader-epub-tests/issues/7)||
 |<span id="38">38</span>|must|"mol-audio-no-clipbegin"| pass,||Start at beginning of audio if clipBegin is missing|||||
 |<span id="39">39</span>|must|"mol-audio-no-clipend"| pass,||Audio track plays until end if clipEnd is missing|||||
-|<span id="40">40</span>|must|"mol-audio_no_clipbegin"| null,||||duplicate "mol-audio-no-clipbegin"? No such file found |||
+|<span id="40">40</span>|must|"mol-audio_no_clipbegin"| null,|test removed||duplicate "mol-audio-no-clipbegin"? No such file found |||
 |<span id="41">41</span>|should|"mol-css"| null,||Basic media overlay test with CSS styling|the rest of the text is NOT grayed out| _The text being read is highlighted with a green background; the rest of the text is grayed out_ media:playback-active-class est sensé faire ça ?  `<meta property="media:active-class">active-item</meta>    <meta property="media:playback-active-class">rendered-with-mo</meta>`|||
-|<span id="42">42</span>|should|"mol-embed"| fails,||Media overlay with embedded video|video don't start auto, no video control ||[#8](https://github.com/edrlab/thorium-reader-epub-tests/issues/8)||
-|<span id="43">43</span>|should|"mol-embed_deactivate_playback"| fails,||Media overlay with embedded video; no playback control |audio plays auto, video does not start auto, video control are displayed||[#9](https://github.com/edrlab/thorium-reader-epub-tests/issues/9)||
-|<span id="44">44</span>|should|"mol-embed_fxl"| fails,||Media overlay with embedded video |video don't start auto, no video control||[#11](https://github.com/edrlab/thorium-reader-epub-tests/issues/11)||
+|<span id="42">42</span>|should|"mol-embed"| fails,|test removed|Media overlay with embedded video|video don't start auto, no video control ||[#8](https://github.com/edrlab/thorium-reader-epub-tests/issues/8)||
+|<span id="43">43</span>|should|"mol-embed_deactivate_playback"| fails,|test removed|Media overlay with embedded video; no playback control |audio plays auto, video does not start auto, video control are displayed||[#9](https://github.com/edrlab/thorium-reader-epub-tests/issues/9)||
+|<span id="44">44</span>|should|"mol-embed_fxl"| fails,|test removed|Media overlay with embedded video |video don't start auto, no video control||[#11](https://github.com/edrlab/thorium-reader-epub-tests/issues/11)||
 |<span id="45">45</span>|must|"mol-navigation"| pass,||Navigation with media overlays||||true|
 |<span id="46">46</span>|must|"mol-timing-synchronization"| pass,||Basic media overla||||y
 |<span id="47">47</span>|must|"mol-timing-synchronization_fxl"| pass,||Basic media overlay in fixed layout|||||
@@ -73,22 +73,22 @@ Date: 2022/10/31
 |<span id="64">64</span>|must|"ocf-url_origin"| pass,||Unique origin for each instance|||||
 |<span id="65">65</span>|must|"ocf-url_parse-leaking-relative"| fails,||Relative URL that exceeds depth of hierarchy, parsed by JS|||[#13](https://github.com/edrlab/thorium-reader-epub-tests/issues/13)|true|
 |<span id="66">66</span>|must|"ocf-url_parse-path-absolute"| fails,||Root-relative URL, parsed by JS |||[#12](https://github.com/edrlab/thorium-reader-epub-tests/issues/12)|true|
-|<span id="67">67</span>|must|"ocf-url_relative"| pass,||Content in relative subdirector||||y
-|<span id="68">68</span>|should|"page-layout-both"| null,||page-layout-both|reflow but text ends out of box (part of the text is not displayed) |test renamed!||renamed <a href="#138">138</a>|
-|<span id="69">69</span>|must|"page-layout-both-spread"| fails,||page-layout-both spread|on the right when passing from page 1 to 2 and on the left when reading from page 3 to page 2||[#16](https://github.com/edrlab/thorium-reader-epub-tests/issues/16)|renamed <a href="#139">139</a>|
+|<span id="67">67</span>|must|"ocf-url_relative"| pass,||Content in relative subdirector||||
+|<span id="68">68</span>|should|"page-layout-both"| null,|lay-page-layout-both||reflow but text ends out of box (part of the text is not displayed) |||false|
+|<span id="69">69</span>|must|"page-layout-both-spread"| fails,|lay-page-layout-both-spread|pread|on the right when passing from page 1 to 2 and on the left when reading from page 3 to page 2||[#16](https://github.com/edrlab/thorium-reader-epub-tests/issues/16)|false|
 |<span id="70">70</span>|must|"pkg-collections-unknown"| pass,||16 with unknown role |||||
 |<span id="71">71</span>|must|"pkg-creator-order"| pass,||Creators listed in order||||true|
 |<span id="72">72</span>|must|"pkg-dir-auto_root-rtl"| pass,||CSS: مغامرة جديدة! |pass in the catalog but strangely displayed in the windows heading (!مغامرة جديدة) ||||
 |<span id="73">73</span>|must|"pkg-dir-auto_root-unset"| pass,||CSS: הרפתקה חדשה| pass in the catalog but strangely displayed in the windows heading (!הרפתקה חדשה)|4 test with the same title |recheck||
-|<span id="74">74</span>|must|"pkg-dir_but_not_content"| pass,||CSS: הרפתקה חדשה!||test with same title|true|
+|<span id="74">74</span>|must|"pkg-dir_but_not_content"| pass,||CSS: הרפתקה חדשה||test with same title|true|
 |<span id="75">75</span>|must|"pkg-dir_creator-rtl"| fails,||'dir=rtl' on the creator|displays right to left||[#17](https://github.com/edrlab/thorium-reader-epub-tests/issues/17)|
-<span id="76">76</span>|must|"pkg-dir_rtl-root-ltr"| fails,||CSS: הרפתקה חדשה!||test with same title|Fixed [#18](https://github.com/edrlab/thorium-reader-epub-tests/issues/18)|true|
-|<span id="77">77</span>|must|"pkg-dir_rtl-root-unset"| fails,||CSS: הרפתקה חדשה!|but correct in the window heading|test with same title|Fixed true[#19](https://github.com/edrlab/thorium-reader-epub-tests/issues/19)||
-|<span id="78">78</span>|must|"pkg-dir_unset-root-rtl"| fails,||CSS: مغامرة جديدة!||test with same title|[#20](https://github.com/edrlab/thorium-reader-epub-tests/issues/20)||
-|<span id="79">79</span>|must|"pkg-dir_unset-root-unset"| pass,||CSS: مغامرة جديدة!|||recheck||
-|<span id="80">80</span>|should|"pkg-flow-paginated"| pass,||rendition:flow set to paginated|||test removed||
-|<span id="81">81</span>|should|"pkg-flow-scrolled-continuous"| pass,||rendition:flow set to scrolled-continuous|no way to set rendition to auto in thorium ||test removed||
-|<span id="82">82</span>|should|"pkg-flow-scrolled-doc"| pass,||rendition:flow set to scrolled-doc |with display:layout set to scrollable||test removed||
+<span id="76">76</span>|must|"pkg-dir_rtl-root-ltr"| fails,||CSS: הרפתקה חדשה||test with same title|Fixed [#18](https://github.com/edrlab/thorium-reader-epub-tests/issues/18)|true|
+|<span id="77">77</span>|must|"pkg-dir_rtl-root-unset"| fails,||CSS: הרפתקה חדשה|but correct in the window heading|test with same title|Fixed true[#19](https://github.com/edrlab/thorium-reader-epub-tests/issues/19)||
+|<span id="78">78</span>|must|"pkg-dir_unset-root-rtl"| fails,||CSS: مغامرة جديدة||test with same title|[#20](https://github.com/edrlab/thorium-reader-epub-tests/issues/20)||
+|<span id="79">79</span>|must|"pkg-dir_unset-root-unset"| pass,||CSS: مغامرة جديدة|||recheck||
+|<span id="80">80</span>|should|"pkg-flow-paginated"| pass,|lay-pkg-flow-paginated|rendition:flow set to paginated|||test removed||
+|<span id="81">81</span>|should|"pkg-flow-scrolled-continuous"| pass,|lay-pkg-flow-scrolled-continuous|rendition:flow set to scrolled-continuous|no way to set rendition to auto in thorium ||test removed||
+|<span id="82">82</span>|should|"pkg-flow-scrolled-doc"| pass,|lay-pkg-flow-scrolled-doc|rendition:flow set to scrolled-doc |with display:layout set to scrollable||test removed||
 |<span id="83">83</span>|must|"pkg-lang_but_not_content"| pass,||Le contenu n'est pas automatiquement français||||true|
 |<span id="84">84</span>|must|"pkg-linked-records"| pass,||Package metadata title! ||||true|
 |<span id="85">85</span>|must|"pkg-manifest-unknown"| pass,||Manifest item with unknown properties|||||
@@ -122,8 +122,8 @@ Date: 2022/10/31
 |<span id="113">113</span>|should|"pub-external-links"| pass,||External Links open a new browser instance|||||
 |<span id="114">114</span>|must|"pub-foreign_bad-fallback"| null,||Manifest fallback with unsupported fallback |opens system file to save .dmg |what is the condition for passing the test ?|||
 |<span id="115">115</span>|must|"pub-foreign_image"| fails,||Manifest fallback with image |||[#23](https://github.com/edrlab/thorium-reader-epub-tests/issues/23)|false|
-!|<span id="116">116</span>|must|"pub-foreign_json-spine"| N/A,||Manifest fallback With JSON content document in spine|Json is displayed (raw) on Windows, nothing on Debian||Should we support raw JSON display?[#](https://github.com/edrlab/thorium-reader-epub-tests/issues/)|
-!|<span id="117">117</span>|must|"pub-foreign_xml-spine"| N/A,||Manifest fallback with XML in spin|xml structure is displayed||Should we support raw XML display?[#](https://github.com/edrlab/thorium-reader-epub-tests/issues/)||
+|<span id="116">116</span>|must|"pub-foreign_json-spine"| N/A,||Manifest fallback With JSON content document in spine|Json is displayed (raw) on Windows, nothing on Debian||Should we support raw JSON display?[#](https://github.com/edrlab/thorium-reader-epub-tests/issues/)|
+|<span id="117">117</span>|must|"pub-foreign_xml-spine"| N/A,||Manifest fallback with XML in spin|xml structure is displayed||Should we support raw XML display?[#](https://github.com/edrlab/thorium-reader-epub-tests/issues/)||
 |<span id="118">118</span>|must|"pub-foreign_xml-suffix-spine"| null,||Manifest fallback with XML with suffix in spine |opens system file to save .xml ||We open dialog and prompt for xml download while we should display xhtml fallback|#TODO open issue [#27](https://github.com/edrlab/thorium-reader-epub-tests/issues/27)|false|
 |<span id="119">119</span>|must|"pub-xml-external-id"| pass,||XML external entity not resolved||||true|
 |<span id="120">120</span>|must|"pub-xml-names"| pass,||Invalid XML element name||||true|
@@ -144,9 +144,9 @@ Date: 2022/10/31
 |<span id="135">135</span>||||ocf-font_obfuscation|||true|
 |<span id="136">136</span>||||ocf-zip-mult|treat any OCF ZIP container that specifies the [zip] file is split across multiple storage media as in error. from https://w3c.github.io/epub-specs/epub33/rs/#confreq-zip-mult|#TODO open issue|false|
 |<span id="137">137</span>||||ocf-font_obfuscation-bis|||true|
-|<span id="138">138</span>||||lay-page-layout-both|is <a href="#68">68</a> renamed ; worked once but could not reproduce|#TODO open issue|false|
-|<span id="139">139</span>||||lay-page-layout-both-spread|is <a href="#69">69</a> renamed    ||false|
-|<span id="140">140</span>||||lay-fxl-xhtml-icb|is <a href="#35">35</a> renamed||true|
+|<span id="138">138</span>||||mol-timing-synchronization_svg|||true|
+|<span id="139">139</span>||||fxl-page-spread-break||#TODO open issue|false|
+|<span id="140">140</span>||||lay-fxl-svg-icb_multi|||true|
 |<span id="141">141</span>||||mol-ignore|test apply only for RS not supporting MO||"n/a"|
 |<span id="142">142</span>||||mol-support_xhtml-load|||true|
 |<span id="143">143</span>||||mol-support_xhtml|||true|
@@ -159,23 +159,14 @@ Date: 2022/10/31
 |<span id="150">150</span>||||pub-external-links_consent|The *open with* box is trigged by the OS and submitted to user preferences||"n/a"|
 |<span id="151">151</span>||||pss-support_ignore-title|||false|
 |<span id="152">152</span>||||pss-support|||true|
-|<span id="154">154</span>||||<a href="https://github.com/w3c/epub-tests/tree/main/tests/pkg-linked-records_link-priority">pkg-linked-records_link-priority</a>||||
-|<span id="155">155</span>||||<a href="https://github.com/w3c/epub-tests/tree/main/tests/pkg-linked-records_link-order>pkg-linked-records_link-order</a>|||false|
-|<span id="156">156</span>||||||||
-|<span id="157">157</span>||||||||
-|<span id="158">158</span>||||||||
-|<span id="159">159</span>||||||||
-|<span id="160">160</span>||||||||
-|<span id="161">161</span>||||||||
-|<span id="162">162</span>||||||||
-|<span id="163">163</span>||||||||
-|<span id="164">164</span>||||||||
-|<span id="165">165</span>||||||||
-|<span id="166">166</span>||||||||
-|<span id="167">167</span>||||||||
-|<span id="168">168</span>||||||||
-|<span id="169">169</span>||||||||
-<!--
-    }
-}
--->
+|<span id="154">154</span>||||<a href="https://github.com/w3c/epub-tests/tree/main/tests/pkg-linked-records_link-priority">pkg-linked-records_link-priority</a>|||false|
+|<span id="155">155</span>||||<a href="https://github.com/w3c/epub-tests/tree/main/tests/pkg-linked-records_link-order">pkg-linked-records_link-order</a>|||false|
+|<span id="156">156</span>||||lay-fxl-xhtml-icb_device_sizes|nothing is displayed|#TODO open issue|false|
+|<span id="157">157</span>||||lay-fxl-xhtml-icb_invalid_meta|||true|
+|<span id="158">158</span>||||lay-fxl-xhtml-icb_multi|||true|
+|<span id="159">159</span>||||lay-fxl-xhtml-icb_multi_declarations|||true|
+|<span id="160">160</span>||||lay-fxl-xhtml-icb_repeated-in-meta|||true|
+|<span id="161">161</span>||||lay-fxl-xhtml-icb_units|||true|
+|<span id="162">162</span>||||lay-reflow-align-x-cente|This is affected by user choice in the settings panel||true|
+|<span id="163">163</span>||||lay-rendition-flow-pre-pag|This disable user choice in settings panel||true|
+|<span id="164">164</span>|||lay-viewport-meta-prop|User text size setting (i.e. zoom) is disable|||false|
