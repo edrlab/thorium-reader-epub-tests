@@ -13,21 +13,21 @@ Date: 2022/10/31
 |---|---|---|---|---|---|---|---|
 |<span id="1">1</span>|must|"cnt-css-fonts": pass,|CSS support for font resources|||||
 |<span id="2">2</span>|must|"cnt-css-support": fails,|Acid2 test|picture not displayed as reference rendering|test is not specific enough|[test removed](https://github.com/w3c/epub-tests/issues/164)||
-|<span id="3">3</span>|must|"cnt-mathml-support": pass,|Support for Presentation MathML|with mathJax enabled / fails on Debian||[Debian issue opened @thorium-reader](https://github.com/edrlab/thorium-reader/issues/1714)||
-|<span id="4">4</span>|must|"cnt-svg-css": pass,|CSS in SVG content document|||||
-|<span id="5">5</span>|must|"cnt-svg-css-inclusion": pass,|CSS applied to included SVG |||||
+|<span id="3">3</span>|must|"cnt-mathml-support": pass,|Support for Presentation MathML|with mathJax enabled / fails on Debian||[Debian issue opened @thorium-reader](https://github.com/edrlab/thorium-reader/issues/1714)|true|
+|<span id="4">4</span>|must|"cnt-svg-css": pass,|CSS in SVG content document||||true|
+|<span id="5">5</span>|must|"cnt-svg-css-inclusion": pass,|CSS applied to included SVG ||||true|
 |<span id="6">6</span>|must|"cnt-svg-css-reference": pass,|CSS not applied to referenced SVG|||||
-|<span id="7">7</span>|must|"cnt-svg-embedded": pass,|SVG embedded in XHTML content|||||
-|<span id="8">8</span>|must|"cnt-svg-support": pass,|SVG content document|||||
-|<span id="9">9</span>|should|"cnt-xhtml-support": pass,|XHTML content document|||||
-|<span id="10">10</span>|must|"css-epub-hyphens": fails,|EPUB CSS hyphens|no hyphens in section 3 ||[#2 -epub-hyphens: auto generates no Hyphens](https://github.com/edrlab/thorium-reader-epub-tests/issues/2)||
-|<span id="11">11</span>|must|"css-epub-line-break": pass,|EPUB CSS line-break|||||
+|<span id="7">7</span>|must|"cnt-svg-embedded": pass,|SVG embedded in XHTML content||||true|
+|<span id="8">8</span>|must|"cnt-svg-support": pass,|SVG content document||||true|
+|<span id="9">9</span>|should|"cnt-xhtml-support": pass,|XHTML content document||||true|
+|<span id="10">10</span>|must|"css-epub-hyphens": fails,|EPUB CSS hyphens|no hyphens in section 3 ||Won't fix[#2 -epub-hyphens: auto generates no Hyphens](https://github.com/edrlab/thorium-reader-epub-tests/issues/2)|false|
+|<span id="11">11</span>|must|"css-epub-line-break": pass,|EPUB CSS line-break||||true|
 |<span id="12">12</span>|must|"css-epub-text-align-last": fails,|EPUB CSS text-align-last|sections3 & 6||[#3]|(https://github.com/edrlab/thorium-reader-epub-tests/issues/3)
-|<span id="13">13</span>|must|"css-epub-text-combine-horizontal": fails,|EPUB CSS text-combine-horizontal |section 2||[#4](https://github.com/edrlab/thorium-reader-epub-tests/issues/4)||
+|<span id="13">13</span>|must|"css-epub-text-combine-horizontal": fails,|EPUB CSS text-combine-horizontal |section 2||Won't Fix [#4](https://github.com/edrlab/thorium-reader-epub-tests/issues/4)|false|
 |<span id="14">14</span>|must|"css-epub-text-emphasis": fails,|EPUB CSS text-emphasis|s6 & s14 (appears to the right)||[#5](https://github.com/edrlab/thorium-reader-epub-tests/issues/5)||
-|<span id="15">15</span>|must|"css-epub-text-orientation": pass,|EPUB CSS text-orientation |||||
+|<span id="15">15</span>|must|"css-epub-text-orientation": pass,|EPUB CSS text-orientation ||||true|
 |<span id="16">16</span>|must|"css-epub-text-transform": pass,|EPUB CSS text-transform|||||
-|<span id="17">17</span>|must|"css-epub-text-underline-position": null,|EPUB CSS text-underline-position|(non is underlined) ||||
+|<span id="17">17</span>|must|"css-epub-text-underline-position": null,|EPUB CSS text-underline-position|fails at 4. underline on the left not on the right ||#TODO open issue (won't fix because css epub prefix)|false|
 |<span id="18">18</span>|must|"css-epub-word-break": pass,|EPUB CSS word-break ||words break without hyphenation ?|||
 |<span id="19">19</span>|must|"css-epub-writing-mode": pass,|EPUB CSS writing-mode|||||
 |<span id="20">20</span>|must|"fxl-layout-duplication": n/a,|rendition:layout duplication||test TBD with epubcheck?|||
@@ -55,7 +55,7 @@ Date: 2022/10/31
 |<span id="42">42</span>|should|"mol-embed": fails,|Media overlay with embedded video|video don't start auto, no video control ||[#8](https://github.com/edrlab/thorium-reader-epub-tests/issues/8)||
 |<span id="43">43</span>|should|"mol-embed_deactivate_playback": fails,|Media overlay with embedded video; no playback control |audio plays auto, video does not start auto, video control are displayed||[#9](https://github.com/edrlab/thorium-reader-epub-tests/issues/9)||
 |<span id="44">44</span>|should|"mol-embed_fxl": fails,|Media overlay with embedded video |video don't start auto, no video control||[#11](https://github.com/edrlab/thorium-reader-epub-tests/issues/11)||
-|<span id="45">45</span>|must|"mol-navigation": pass,|Navigation with media overlays|||||
+|<span id="45">45</span>|must|"mol-navigation": pass,|Navigation with media overlays||||true|
 |<span id="46">46</span>|must|"mol-timing-synchronization": pass,|Basic media overla||||y
 |<span id="47">47</span>|must|"mol-timing-synchronization_fxl": pass,|Basic media overlay in fixed layout|||||
 |<span id="48">48</span>|must|"mol-timing-synchronization_multiple_audio": pass,|Media overlay with two audio files|||||
@@ -68,37 +68,37 @@ Date: 2022/10/31
 |<span id="55">55</span>|must|"nav-spine_not-in-spine": pass,|Navigation accessible while not in spine|||||
 |<span id="56">56</span>|must|"ocf-metainf-inc": pass,|Extra configuration file in META-INF|||||
 |<span id="57">57</span>|must|"ocf-metainf-manifest": pass,|Manifest information is ignored|||||
-|<span id="58">58</span>|must|"ocf-package_arbitrary": pass,|Package in arbitrary director||||y
-|<span id="59">59</span>|must|"ocf-package_multiple": pass,|Multiple packages in container file|||||
+|<span id="58">58</span>|must|"ocf-package_arbitrary": pass,|Package in arbitrary directory||||
+|<span id="59">59</span>|must|"ocf-package_multiple": pass,|Multiple packages in container file||||true|
 |<span id="60">60</span>|must|"ocf-url_link-leaking-relative": fails,|Relative image reference exceeds depth of hierarchy |||[#14](https://github.com/edrlab/thorium-reader-epub-tests/issues/14)||
 |<span id="61">61</span>|must|"ocf-url_link-path-absolute": fails,|Path-absolute link to an image|||[#15](https://github.com/edrlab/thorium-reader-epub-tests/issues/13)||
 |<span id="62">62</span>|must|"ocf-url_link-relative": pass,|Simple relative link to an image|||||
 |<span id="63">63</span>|must|"ocf-url_manifest": pass,|Content in arbitrary director||||y
 |<span id="64">64</span>|must|"ocf-url_origin": pass,|Unique origin for each instance|||||
-|<span id="65">65</span>|must|"ocf-url_parse-leaking-relative": fails,|Relative URL that exceeds depth of hierarchy, parsed by JS|||[#13](https://github.com/edrlab/thorium-reader-epub-tests/issues/13)||
-|<span id="66">66</span>|must|"ocf-url_parse-path-absolute": fails,|Root-relative URL, parsed by JS |||[#12](https://github.com/edrlab/thorium-reader-epub-tests/issues/12)||
+|<span id="65">65</span>|must|"ocf-url_parse-leaking-relative": fails,|Relative URL that exceeds depth of hierarchy, parsed by JS|||[#13](https://github.com/edrlab/thorium-reader-epub-tests/issues/13)|true|
+|<span id="66">66</span>|must|"ocf-url_parse-path-absolute": fails,|Root-relative URL, parsed by JS |||[#12](https://github.com/edrlab/thorium-reader-epub-tests/issues/12)|true|
 |<span id="67">67</span>|must|"ocf-url_relative": pass,|Content in relative subdirector||||y
 |<span id="68">68</span>|should|"page-layout-both": null,|page-layout-both|reflow but text ends out of box (part of the text is not displayed) ||||
 |<span id="69">69</span>|must|"page-layout-both-spread": fails,|page-layout-both spread|on the right when passing from page 1 to 2 and on the left when reading from page 3 to page 2||[#16](https://github.com/edrlab/thorium-reader-epub-tests/issues/16)||
 |<span id="70">70</span>|must|"pkg-collections-unknown": pass,|16 with unknown role |||||
-|<span id="71">71</span>|must|"pkg-creator-order": pass,|Creators listed in order|||||
+|<span id="71">71</span>|must|"pkg-creator-order": pass,|Creators listed in order||||true|
 |<span id="72">72</span>|must|"pkg-dir-auto_root-rtl": pass,|CSS: مغامرة جديدة! |pass in the catalog but strangely displayed in the windows heading (!مغامرة جديدة) ||||
 |<span id="73">73</span>|must|"pkg-dir-auto_root-unset": pass,|CSS: הרפתקה חדשה| pass in the catalog but strangely displayed in the windows heading (!הרפתקה חדשה)|4 test with the same title |recheck||
-|<span id="74">74</span>|must|"pkg-dir_but_not_content": pass,|CSS: הרפתקה חדשה!||test with same title|recheck||
+|<span id="74">74</span>|must|"pkg-dir_but_not_content": pass,|CSS: הרפתקה חדשה!||test with same title|true|
 |<span id="75">75</span>|must|"pkg-dir_creator-rtl": fails,|'dir=rtl' on the creator|displays right to left||[#17](https://github.com/edrlab/thorium-reader-epub-tests/issues/17)|
-<span id="76">76</span>|must|"pkg-dir_rtl-root-ltr": fails,|CSS: הרפתקה חדשה!||test with same title| [#18](https://github.com/edrlab/thorium-reader-epub-tests/issues/18)||
-|<span id="77">77</span>|must|"pkg-dir_rtl-root-unset": fails,|CSS: הרפתקה חדשה!|but correct in the window heading|test with same title|[#19](https://github.com/edrlab/thorium-reader-epub-tests/issues/19)||
+<span id="76">76</span>|must|"pkg-dir_rtl-root-ltr": fails,|CSS: הרפתקה חדשה!||test with same title|Fixed [#18](https://github.com/edrlab/thorium-reader-epub-tests/issues/18)|true|
+|<span id="77">77</span>|must|"pkg-dir_rtl-root-unset": fails,|CSS: הרפתקה חדשה!|but correct in the window heading|test with same title|Fixed true[#19](https://github.com/edrlab/thorium-reader-epub-tests/issues/19)||
 |<span id="78">78</span>|must|"pkg-dir_unset-root-rtl": fails,|CSS: مغامرة جديدة!||test with same title|[#20](https://github.com/edrlab/thorium-reader-epub-tests/issues/20)||
 |<span id="79">79</span>|must|"pkg-dir_unset-root-unset": pass,|CSS: مغامرة جديدة!|||recheck||
 |<span id="80">80</span>|should|"pkg-flow-paginated": pass,|rendition:flow set to paginated|||||
 |<span id="81">81</span>|should|"pkg-flow-scrolled-continuous": pass,|rendition:flow set to scrolled-continuous|no way to set rendition to auto in thorium ||||
 |<span id="82">82</span>|should|"pkg-flow-scrolled-doc": pass,|rendition:flow set to scrolled-doc |with display:layout set to scrollable||||
-|<span id="83">83</span>|must|"pkg-lang_but_not_content": pass,|Le contenu n'est pas automatiquement français|||||
+|<span id="83">83</span>|must|"pkg-lang_but_not_content": pass,|Le contenu n'est pas automatiquement français||||true|
 |<span id="84">84</span>|must|"pkg-linked-records": pass,|Package metadata title! |||||
 |<span id="85">85</span>|must|"pkg-manifest-unknown": pass,|Manifest item with unknown properties|||||
 |<span id="86">86</span>|must|"pkg-manifest-unlisted-resource": pass,|Resource not listed in manifest |||||
-|<span id="87">87</span>|must|"pkg-meta-unknown": pass,|Meta tag with unknown property |||||
-|<span id="88">88</span>|must|"pkg-meta-whitespace": pass,|hitespace removed from package metadata|||||
+|<span id="87">87</span>|must|"pkg-meta-unknown": pass,|Meta tag with unknown property ||||true|
+|<span id="88">88</span>|must|"pkg-meta-whitespace": pass,|whitespace removed from package metadata||||true|
 |<span id="89">89</span>|must|"pkg-spine-duplicate-item-hyperlink": pass,|Hyperlink to duplicate items in spine|||||
 |<span id="90">90</span>|must|"pkg-spine-duplicate-item-rendering": fails,|Duplicate items in spine render |only one page is dispalyed||[#21](https://github.com/edrlab/thorium-reader-epub-tests/issues/21)||
 |<span id="91">91</span>|must|"pkg-spine-duplicate-item-ui": fails,|UI recognizes duplicate items in spine|It looks like 4 pages are recognized but i can reach only the first one||[#22](https://github.com/edrlab/thorium-reader-epub-tests/issues/22)||
@@ -106,11 +106,11 @@ Date: 2022/10/31
 |<span id="93">93</span>|must|"pkg-spine-order": pass,|Spine items in order|||||
 |<span id="94">94</span>|must|"pkg-spine-order-svg": pass,|SVG spine items in order|||||
 |<span id="95">95</span>|must|"pkg-spine-progression-default": pass,| RTL publication's spine has implicit 'page-progression-direction="default"'|||||
-|<span id="96">96</span>|must|"pkg-spine-progression-pre-paginated": pass,|Pre-paginated publication's spine sets 'page-progression-direction="ltr"'|||||
+|<span id="96">96</span>|must|"pkg-spine-progression-pre-paginated": pass,|Pre-paginated publication's spine sets 'page-progression-direction="ltr"'||||true|
 |<span id="97">97</span>|must|"pkg-spine-progression_ltr": pass,|Spine sets 'page-progression-direction="ltr"|||||
 |<span id="98">98</span>|must|"pkg-spine-progression_rtl": pass,|Spine sets 'page-progression-direction="rtl"|||||
 |<span id="99">99</span>|must|"pkg-spine-unknown": pass,|Spine item with unknown properties|||||
-|<span id="100">100</span>|must|"pkg-title-order": pass,|First title in package |||||
+|<span id="100">100</span>|must|"pkg-title-order": pass,|First title in package ||||true|
 |<span id="101">101</span>|must|"pkg-unique-id": pass,|Unique identifier not unique|||revérifier||
 |<span id="102">102</span>|must|"pkg-version-backward": pass,|Package version less than 3.0|||||
 |<span id="103">103</span>|must|"pub-cmt-gif": pass,|GIF image|||||
@@ -121,18 +121,18 @@ Date: 2022/10/31
 |<span id="108">108</span>|must|"pub-cmt-png": pass,|PNG image |||||
 |<span id="109">109</span>|must|"pub-cmt-svg": pass,|SVG image|||||
 |<span id="110">110</span>|must|"pub-cmt-webp": pass,|WEBP image|||||
-|<span id="111">111</span>|must|"pub-data-urls_browsing-context": pass,|Data URL does not open in top-level context|||||
+|<span id="111">111</span>|must|"pub-data-urls_browsing-context": pass,|Data URL does not open in top-level context||||true|
 |<span id="112">112</span>|must|"pub-data-urls_top-level-content": pass,|Data URL not opening as a top-level content document|but displayed over text||||
 |<span id="113">113</span>|should|"pub-external-links": pass,|External Links open a new browser instance|||||
 |<span id="114">114</span>|must|"pub-foreign_bad-fallback": null,|Manifest fallback with unsupported fallback |opens system file to save .dmg |what is the condition for passing the test ?|||
-|<span id="115">115</span>|must|"pub-foreign_image": fails,|Manifest fallback with image |||[#23](https://github.com/edrlab/thorium-reader-epub-tests/issues/23)|
+|<span id="115">115</span>|must|"pub-foreign_image": fails,|Manifest fallback with image |||[#23](https://github.com/edrlab/thorium-reader-epub-tests/issues/23)|false|
 !|<span id="116">116</span>|must|"pub-foreign_json-spine": N/A,|Manifest fallback With JSON content document in spine|Json is displayed (raw) on Windows, nothing on Debian||Should we support raw JSON display?[#](https://github.com/edrlab/thorium-reader-epub-tests/issues/)|
 !|<span id="117">117</span>|must|"pub-foreign_xml-spine": N/A,|Manifest fallback with XML in spin|xml structure is displayed||Should we support raw XML display?[#](https://github.com/edrlab/thorium-reader-epub-tests/issues/)||
-|<span id="118">118</span>|must|"pub-foreign_xml-suffix-spine": null,|Manifest fallback with XML with suffix in spine |opens system file to save .xml |||||
-|<span id="119">119</span>|must|"pub-xml-external-id": pass,|XML external entity not resolved|||||
-|<span id="120">120</span>|must|"pub-xml-names": pass,|Invalid XML element name|||||
-|<span id="121">121</span>|must|"pub-xml-non-validating_invalid": fails,|Invalid XML navigation document||SPINE does not looks false. Test may be broken.|[#24](https://github.com/edrlab/thorium-reader-epub-tests/issues/24)||
-|<span id="122">122</span>|must|"pub-xml-non-validating_unclosed": pass,| Unclosed XML tag |||||
+|<span id="118">118</span>|must|"pub-foreign_xml-suffix-spine": null,|Manifest fallback with XML with suffix in spine |opens system file to save .xml ||We open dialog and prompt for xml download while we should display xhtml fallback|#TODO open issue [#27](https://github.com/edrlab/thorium-reader-epub-tests/issues/27)|false|
+|<span id="119">119</span>|must|"pub-xml-external-id": pass,|XML external entity not resolved||||true|
+|<span id="120">120</span>|must|"pub-xml-names": pass,|Invalid XML element name||||true|
+|<span id="121">121</span>|must|"pub-xml-non-validating_invalid": fails,|Invalid XML navigation document||SPINE does not looks false. Test may be broken.|[#24](https://github.com/edrlab/thorium-reader-epub-tests/issues/24)|false|
+|<span id="122">122</span>|must|"pub-xml-non-validating_unclosed": pass,| Unclosed XML tag ||||true|
 |<span id="123">123</span>|must|"scr-readingsystem-features": pass,|epubReadingSystem object features|||||
 |<span id="124">124</span>|must|"scr-readingsystem-support": pass,|epubReadingSystem object support|||||
 |<span id="125">125</span>|must|"scr-readingsystem-support_iframe": pass,| epubReadingSystem object support in an iframe|||||
@@ -144,6 +144,20 @@ Date: 2022/10/31
 |<span id="131">131</span>|should|"scr-support_scrolled-continuous": pass,|rendition:flow set to scrolled-continuous when scripting is supported|||||
 |<span id="132">132</span>|should|"scr-support_scrolled-doc": pass,|rendition:flow set to scrolled-doc when scripting is supported|||||
 |<span id="133">133</span>|should|"scr-support_svg": pass|Scripting support in spine-level SVG||||
+|<span id="134">134</span>|||mol-support_xhtml-load-next|||true|
+|<span id="135">135</span>|||ocf-font_obfuscation|||true|
+|<span id="136">136</span>|||ocf-zip-mult|treat any OCF ZIP container that specifies the [zip] file is split across multiple storage media as in error. from https://w3c.github.io/epub-specs/epub33/rs/#confreq-zip-mult|#TODO open issue|false|
+|<span id="137">137</span>|||ocf-font_obfuscation-bis|||true|
+|<span id="138">138</span>|||lay-page-layout-both|worked once but could not reproduce|#TODO open issue|false|
+|<span id="139">139</span>|||lay-page-layout-both-spread|is <a href="#69">69</a> renamed    ||false|
+|<span id="140">140</span>|||lay-fxl-xhtml-icb|is <a href="#35">35</a> renamed||true|
+|<span id="141">141</span>|||mol-ignore|test apply only for RS not supporting MO||"n/a"|
+|<span id="142">142</span>|||mol-support_xhtml-load|||true|
+|<span id="143">143</span>|||mol-support_xhtml|||true|
+|<span id="144">144</span>|||fxl-spine-overrides_behave-as-global-bis|||true|
+|<span id="145">145</span>|||lay-fxl-layout-default|||true|
+|<span id="146">146</span>|||ocf-zip-comp|||false|
+
 <!--
     }
 }
