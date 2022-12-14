@@ -23,15 +23,15 @@ Date: 2022/10/31
 |<span id="14">14</span>|must|<a href="https://w3c.github.io/epub-tests/#css-epub-text-emphasis">css-epub-text-emphasis</a>| fails,||EPUB CSS text-emphasis|s6 & s14 (appears to the right)|[#5](https://github.com/edrlab/thorium-reader-epub-tests/issues/5)|true|
 |<span id="15">15</span>|must|<a href="https://w3c.github.io/epub-tests/#css-epub-text-orientation">css-epub-text-orientation</a>| pass,||EPUB CSS text-orientation |||true|
 |<span id="16">16</span>|must|<a href="https://w3c.github.io/epub-tests/#css-epub-text-transform">css-epub-text-transform</a>| pass,||EPUB CSS text-transform|||true|
-|<span id="17">17</span>|must|<a href="https://w3c.github.io/epub-tests/#css-epub-text-underline-position">css-epub-text-underline-position</a>| null,||EPUB CSS text-underline-position|fails at 4. underline on the left not on the right |(won't fix because css epub prefix)|false|
+|<span id="17">17</span>|must|<a href="https://w3c.github.io/epub-tests/#css-epub-text-underline-position">css-epub-text-underline-position</a>| null,||EPUB CSS text-underline-position|fails at 4. underline on the left not on the right |(won't fix because css epub prefix)|true|
 |<span id="18">18</span>|must|<a href="https://w3c.github.io/epub-tests/#css-epub-word-break">css-epub-word-break</a>| pass,||EPUB CSS word-break |words break without hyphenation ?||true|
 |<span id="19">19</span>|must|<a href="https://w3c.github.io/epub-tests/#css-epub-writing-mode">css-epub-writing-mode</a>| pass,||EPUB CSS writing-mode|||true|
 |<span id="20">20</span>|must|<a href="https://w3c.github.io/epub-tests/#fxl-layout-duplication">fxl-layout-duplication</a>| n/a,||rendition:layout duplication||test TBD with epubcheck?|"n/a"|
-|<span id="21">21</span>|must|<a href="https://w3c.github.io/epub-tests/#fxl-layout-pre-paginated">fxl-layout-pre-paginated</a>| n/a,|lay-fxl-layout-pre-paginated|rendition:layout pre-paginated spine order|1 page displayed, but with text over text |missing a test pass information||
+|<span id="21">21</span>|must|<a href="https://w3c.github.io/epub-tests/#fxl-layout-pre-paginated">fxl-layout-pre-paginated</a>| n/a,|lay-fxl-layout-pre-paginated|rendition:layout pre-paginated spine order|1 page displayed, but with text over text |missing a test pass information|true|
 |<span id="22">22</span>|must|<a href="https://w3c.github.io/epub-tests/#fxl-layout-pre-paginated-spreads">fxl-layout-pre-paginated-spreads</a>| pass,|lay-fxl-layout-pre-paginated-spreads|rendition:layout pre-paginated spreads|||true|
 |<span id="23">23</span>|should|<a href="https://w3c.github.io/epub-tests/#fxl-orientation-landscape">fxl-orientation-landscape</a>| pass,|lay-fxl-orientation-landscape|landscape is Thorium default |||true|
 |<span id="24">24</span>|must|<a href="https://w3c.github.io/epub-tests/#fxl-orientation_default">fxl-orientation_default</a>| pass,|lay-fxl-orientation_default|rendition:orientation default|There is no way to set orientation to default in Thorium||true|
-|<span id="25">25</span>|must|<a href="https://w3c.github.io/epub-tests/#fxl-orientation_duplication">fxl-orientation_duplication</a>| null,||rendition:orientation duplicate|displayed by thorium|epubcheck (does that means the file shall not be rendered?||
+|<span id="25">25</span>|must|<a href="https://w3c.github.io/epub-tests/#fxl-orientation_duplication">fxl-orientation_duplication</a>| null,||rendition:orientation duplicate|displayed by thorium|epubcheck (does that means the file shall not be rendered?)||
 |<span id="26">26</span>|should|<a href="https://w3c.github.io/epub-tests/#fxl-page-spread-center">fxl-page-spread-center</a>| fails,||rendition:page-spread-center |displayed on the right|[#6](https://github.com/edrlab/thorium-reader-epub-tests/issues/6)||
 |<span id="27">27</span>|should|<a href="https://w3c.github.io/epub-tests/#fxl-page-spread-combined">fxl-page-spread-combined</a>| pass,|lay-fxl-page-spread-combined|rendition:page-spread combined |||true|
 |<span id="28">28</span>|should|<a href="https://w3c.github.io/epub-tests/#fxl-page-spread-left">fxl-page-spread-left</a>| pass,|<a href="https://w3c.github.io/epub-tests/#lay-fxl-page-spread-left">lay-fxl-page-spread-left</a>|rendition:page-spread-left |||true|
@@ -79,7 +79,7 @@ Date: 2022/10/31
 |<span id="70">70</span>|must|<a href="https://w3c.github.io/epub-tests/#pkg-collections-unknown">pkg-collections-unknown</a>| pass,||16 with unknown role |||true|
 |<span id="71">71</span>|must|<a href="https://w3c.github.io/epub-tests/#pkg-creator-order">pkg-creator-order</a>| pass,||Creators listed in order|||true|
 |<span id="72">72</span>|must|<a href="https://w3c.github.io/epub-tests/#pkg-dir-auto_root-rtl">pkg-dir-auto_root-rtl</a>| pass,||CSS: مغامرة جديدة! |pass in the catalog but strangely displayed in the windows heading (!مغامرة جديدة) ||true|
-|<span id="73">73</span>|must|<a href="https://w3c.github.io/epub-tests/#pkg-dir-auto_root-unset">pkg-dir-auto_root-unset</a>| pass,||CSS: הרפתקה חדשה| pass in the catalog but strangely displayed in the windows heading (!הרפתקה חדשה)|4 test with the same title |recheck||
+|<span id="73">73</span>|must|<a href="https://w3c.github.io/epub-tests/#pkg-dir-auto_root-unset">pkg-dir-auto_root-unset</a>| pass,||CSS: הרפתקה חדשה| pass in the catalog but strangely displayed in the windows heading (!הרפתקה חדשה)|4 test with the same title |recheck|false|
 |<span id="74">74</span>|must|<a href="https://w3c.github.io/epub-tests/#pkg-dir_but_not_content">pkg-dir_but_not_content</a>| pass,||CSS: הרפתקה חדשה|test with same title||true|
 |<span id="75">75</span>|must|<a href="https://w3c.github.io/epub-tests/#pkg-dir_creator-rtl">pkg-dir_creator-rtl</a>| fails,||'dir=rtl' on the creator|displays right to left|[#17](https://github.com/edrlab/thorium-reader-epub-tests/issues/17)|
 <span id="76">76</span>|must|<a href="https://w3c.github.io/epub-tests/#pkg-dir_rtl-root-ltr">pkg-dir_rtl-root-ltr</a>| fails,||CSS: הרפתקה חדשה|test with same title|Fixed [#18](https://github.com/edrlab/thorium-reader-epub-tests/issues/18)|true|
@@ -120,7 +120,7 @@ Date: 2022/10/31
 |<span id="111">111</span>|must|<a href="https://w3c.github.io/epub-tests/#pub-data-urls_browsing-context">pub-data-urls_browsing-context</a>| pass,||Data URL does not open in top-level context|||true|
 |<span id="112">112</span>|must|<a href="https://w3c.github.io/epub-tests/#pub-data-urls_top-level-content">pub-data-urls_top-level-content</a>| pass,||Data URL not opening as a top-level content document|but displayed over text||true|
 |<span id="113">113</span>|should|<a href="https://w3c.github.io/epub-tests/#pub-external-links">pub-external-links</a>| pass,||External Links open a new browser instance|||true|
-|<span id="114">114</span>|must|<a href="https://w3c.github.io/epub-tests/#pub-foreign_bad-fallback">pub-foreign_bad-fallback</a>| null,||Manifest fallback with unsupported fallback |opens system file to save .dmg |what is the condition for passing the test ?||
+|<span id="114">114</span>|must|<a href="https://w3c.github.io/epub-tests/#pub-foreign_bad-fallback">pub-foreign_bad-fallback</a>| null,||Manifest fallback with unsupported fallback |opens system file to save .dmg |what is the condition for passing the test ?|"n/a"|
 |<span id="115">115</span>|must|<a href="https://w3c.github.io/epub-tests/#pub-foreign_image">pub-foreign_image</a>| fails,||Manifest fallback with image |||[#23](https://github.com/edrlab/thorium-reader-epub-tests/issues/23)|false|
 |<span id="116">116</span>|must|<a href="https://w3c.github.io/epub-tests/#pub-foreign_json-spine">pub-foreign_json-spine</a>| N/A,||Manifest fallback With JSON content document in spine|Json is displayed (raw) on Windows, nothing on Debian|Should we support raw JSON display?[#](https://github.com/edrlab/thorium-reader-epub-tests/issues/)|
 |<span id="117">117</span>|must|<a href="https://w3c.github.io/epub-tests/#pub-foreign_xml-spine">pub-foreign_xml-spine</a>| N/A,||Manifest fallback with XML in spin|xml structure is displayed|Should we support raw XML display?[#](https://github.com/edrlab/thorium-reader-epub-tests/issues/)||
@@ -170,3 +170,20 @@ Date: 2022/10/31
 |<span id="162">162</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-reflow-align-x-center">lay-reflow-align-x-center</a>|This is affected by user choice in the settings panel|||true|
 |<span id="163">163</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-rendition-flow-pre-pag">lay-rendition-flow-pre-pag</a>|This disable user choice in settings panel|||true|
 |<span id="164">164</span>|must|||<a href="https://w3c.github.io/epub-tests/#lay-viewport-meta-prop">lay-viewport-meta-prop</a>|User text size setting (i.e. zoom) is disabled|||false|
+|<span id=""></span>||||<a href="https://w3c.github.io/epub-tests/#pub-xml-non-validating_comment">pub-xml-non-validating_comment</a>|||true|
+|<span id=""></span>||||<a href="https://w3c.github.io/epub-tests/#fxl-spine-overrides_behave-as-global">fxl-spine-overrides_behave-as-global</a>||||true|
+|<span id=""></span>||||<a href="https://w3c.github.io/epub-tests/#fxl-spine-overrides_duplicate">fxl-spine-overrides_duplicate"</a>||||false|
+|<span id=""></span>||||<a href="https://w3c.github.io/epub-tests/#lay-fxl-spread-none">lay-fxl-spread-none</a>||||true|
+|<span id=""></span>||||<a href="https://w3c.github.io/epub-tests/#nav-non-text_img">nav-non-text_img</a>|||todo open issue|false|
+|<span id=""></span>||||<a href="https://w3c.github.io/epub-tests/#nav-non-text_img_title">nav-non-text_img_title</a>|||todo open issue|false|
+|<span id=""></span>||||<a href="https://w3c.github.io/epub-tests/#"></a>|||||
+|<span id=""></span>||||<a href="https://w3c.github.io/epub-tests/#"></a>|||||
+|<span id=""></span>||||<a href="https://w3c.github.io/epub-tests/#"></a>|||||
+|<span id=""></span>||||<a href="https://w3c.github.io/epub-tests/#"></a>|||||
+
+
+
+
+
+
+scr-not-support_ccscript-modify-host
