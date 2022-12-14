@@ -1,7 +1,7 @@
 # thorium-reader-epub-tests
-W3C tests for [EPUB 3.3](https://github.com/w3c/epub-tests) applied to Thorium Reader
 
+This is a place to store test files and comments for testing Thorium funcionalities. 
 
-how to contribute to tests.
-
-W3C minutes: https://www.w3.org/publishing/groups/epub-wg/Meetings/Minutes/2022-05-20-epub
+It has : 
+* W3C tests for [EPUB 3.3](https://github.com/w3c/epub-tests) applied to Thorium Reader
+* Testing files relatives to Thorium funcionalities.
