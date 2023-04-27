@@ -5,3 +5,4 @@ fails-files/*
 thorium20-windows10.json
 .obsidian/*
 thorium-macos.json
+automated-tests/epubcheck-5.0.0/*
