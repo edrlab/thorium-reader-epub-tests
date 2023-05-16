@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "title": "epubtest.org Test Suite"
+    },
+    "links": [
+        {
+            "href": "https://github.com/daisy/epub-accessibility-tests/blob/master/opds/opds.json",
+            "type": "application/opds+json",
+            "rel": "self"
+        }
+    ],
+    "publications": [
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "https://github.com/daisy/epub-accessibility-tests/blob/master/Accessibility-Tests-Extended-Descriptions-v1.1.1.epub",
+                "title": "Advanced Accessibility Tests: Extended Descriptions",
+                "author": "DAISY Consortium Transition to EPUB 3 and DIAGRAM Standards WG",
+                "description": "Tests for accessible extended descriptions of images in EPUBs",
+                "collection": "Advanced Accessibility Tests",
+                "modified": "2022-10-04T00:00:00Z",
+                "publisher": "DAISY Consortium",
+                "subject": [
+                    "epubtest.org"
+                ]
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://github.com/daisy/epub-accessibility-tests/blob/master/Accessibility-Tests-Extended-Descriptions-v1.1.1.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://github.com/daisy/epub-accessibility-tests/blob/62a545278c8ac081fc50439225c5a70440446526/content/epub30-test-0340/EPUB/Images/cover.jpg",
+                    "type": "image/png",
+                    "height": 600,
+                    "width": 400
+                }
+            ]
+        }
+    ]
+}

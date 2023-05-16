@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "title": "epubtest.org Test Suite"
+    },
+    "links": [
+        {
+            "href": "https://github.com/daisy/epub-accessibility-tests/blob/master/opds/opds.json",
+            "type": "application/opds+json",
+            "rel": "self"
+        }
+    ],
+    "publications": [
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "https://github.com/daisy/epub-accessibility-tests/blob/master/Accessibility-Tests-Extended-Descriptions-v1.1.1.epub",
+                "title": "Advanced Accessibility Tests: Extended Descriptions",
+                "author": "DAISY Consortium Transition to EPUB 3 and DIAGRAM Standards WG",
+                "description": "Tests for accessible extended descriptions of images in EPUBs",
+                "collection": "Advanced Accessibility Tests",
+                "modified": "2022-10-04T00:00:00Z",
+                "publisher": "DAISY Consortium",
+                "subject": [
+                    "epub-test"
+                ]
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://github.com/daisy/epub-accessibility-tests/blob/master/Accessibility-Tests-Extended-Descriptions-v1.1.1.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://github.com/daisy/epub-accessibility-tests/blob/62a545278c8ac081fc50439225c5a70440446526/content/epub30-test-0340/EPUB/Images/cover.jpg",
+                    "type": "image/png",
+                    "height": 849,
+                    "width": 600
+                }
+            ]
+        }
+    ]
+}
+
+Accessibility-Tests-Extended-Descriptions-v1.1.1.epub
+Accessibility-Tests-Mathematics-v1.1.1.epub
+Advanced-Accessibility-Tests-Extended-Descriptions-v1.2.7.epub
+Advanced-Accessibility-Tests-Media-Overlays-v1.0.1.epub
+Fundamental-Accessibility-Tests-Basic-Functionality-v1.0.1.epub
+Fundamental-Accessibility-Tests-Non-Visual-Reading-v1.0.1.epub
+Fundamental-Accessibility-Tests-Read-Aloud-v1.0.0.epub
+Fundamental-Accessibility-Tests-Visual-Adjustments-v1.0.1.epub
+
+Tests-fondamentaux-pour-l’accessibilité-Ajustements-visuels-v1.0.1.epub
+Tests-fondamentaux-pour-l’accessibilité-Fonctionnalité-de-lecture-audio-v1.0.0.epub
+Tests-fondamentaux-pour-l’accessibilité-Fonctionnalités-de-base-v1.0.1.epub
+Tests-fondamentaux-pour-l’accessibilité-Lecture-non-visuelle-v1.0.1.epub
+
+<dc:creator>DAISY Consortium</dc:creator>
+content/epub30-test-0301/: Basic Functionality
+content/epub30-test-0302/: Non-Visual Reading
+content/epub30-test-0303/: Visual Adjustments
+content/epub30-test-0304/: Read Aloud
+
+content/epub30-test-0320/: Media Overlays
+content/epub30-test-0330/: Math (longer book, not on site)
+content/epub30-test-0340/: Extended Descriptions (longer book, not on site)
+content/epub30-test-0350/: Extended Descriptions (basic)
+content/epub30-test-0360/: Math (basic)
