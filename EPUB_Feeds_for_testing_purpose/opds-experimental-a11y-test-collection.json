@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "title": "Experimental accessibility test collection"
+    },
+    "links": [
+        {
+            "href": "https://github.com/edrlab/thorium-reader-epub-tests/blob/main/EPUB_Feeds_for_testing_purpose/opds-experimental-a11y-test-collection.json",
+            "type": "application/opds+json",
+            "rel": "self"
+        }
+    ],
+    "publications": [
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "https://github.com/daisy/transitiontoepub/blob/main/dpub-aria-testing/content/DPUB-ARIA-tests",
+                "title": "DPUB-ARIA-tests",
+                "author": "Daisy Consortium",
+                "description": "A collection of experimental DPUB ARIA roles.",
+                "collection": "Accessibility",
+                "modified": "2021-07-12T00:00:00Z",
+                "publisher": "Daisy Transition To EPUB",
+                "subject": [
+                    "DPUB ARIA"
+                ]
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://github.com/daisy/transitiontoepub/raw/main/dpub-aria-testing/content/DPUB-ARIA-tests.epub"
+                }
+            ],
+            // "images": [
+            //     {
+            //         "href": "",
+            //         "type": "image/png",
+            //         "height": 849,
+            //         "width": 600
+            //     },
+            //     {
+            //         "href": "",
+            //         "type": "image/svg"
+            //     }
+            // ]
+        }
+    ]
+}
