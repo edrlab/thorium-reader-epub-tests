@@ -1,7 +1,10 @@
 w/*
 .history
 .DS_Store
-fails-files/*
-thorium20-windows10.json
 .obsidian/*
-thorium-macos.json
+Test Workflows/epubcheck-5.0.0/*
+Test Workflows/w/*
+Test Workflows/reports/*
+Test Workflows/testing/*
+fails-files/*
+GautierOwnNotes.md
