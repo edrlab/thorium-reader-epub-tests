@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "title": "Modele"
+    },
+    "links": [
+        {
+            "href": "https://github.com/edrlab/thorium-reader-epub-tests/...",
+            "type": "application/opds+json",
+            "rel": "self"
+        }
+    ],
+    "publications": [
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "https://github.com/...",
+                "title": "...",
+                "author": "...",
+                "description": "...",
+                "collection": "...",
+                "modified": "2022-10-04T00:00:00Z",
+                "publisher": "...",
+                "subject": [
+                    "..."
+                ]
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://...epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://...cover.png",
+                    "type": "image/png",
+                    "height": 849,
+                    "width": 600
+                },
+                {
+                    "href": "https://...cover.svg",
+                    "type": "image/svg"
+                }
+            ]
+        }
+    ]
+}
