@@ -2,9 +2,9 @@ w/*
 .history
 .DS_Store
 .obsidian/*
-Test Workflows/epubcheck-5.0.0/*
-Test Workflows/w/*
-Test Workflows/reports/*
-Test Workflows/testing/*
+Test_workflows/epubcheck-5.0.0/*
+Test_workflows/w/*
+Test_workflows/reports/*
+Test_workflows/testing/*
 fails-files/*
 GautierOwnNotes.md
