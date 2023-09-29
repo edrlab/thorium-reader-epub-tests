@@ -4,7 +4,7 @@
     },
     "links": [
         {
-            "href": "https://github.com/edrlab/thorium-reader-epub-tests/tree/main/EPUB%20Feeds%20for%20test%20purpose",
+            "href": "https://github.com/edrlab/thorium-reader-epub-tests/blob/main/EPUB_Feeds_for_testing_purpose/opds-rare-epub-suit.json",
             "type": "application/opds+json",
             "rel": "self"
         }
@@ -13,33 +13,33 @@
         {
             "metadata": {
                 "@type": "http://schema.org/Book",
-                "identifier": "https://github.com/w3c/epub-tests/tree/main/tests/lay-fxl-xhtml-icb",
-                "title": "lay-fxl-xhtml-icb",
-                "author": "Dave Cramer",
-                "description": "XHTML content outside the initial containing block (ICB) is clipped.",
-                "collection": "Fixed Layout",
+                "identifier": "https://github.com/edrlab/thorium-reader-epub-tests/blob/main/Rare_EPUB_test_suit/a11y_metadata.epub",
+                "title": "Accessibility Metadata",
+                "author": "Gautier Chomel",
+                "description": "",
+                "collection": "Accessibility",
                 "modified": "2022-10-04T00:00:00Z",
-                "publisher": "W3C",
+                "publisher": "EDRLab",
                 "subject": [
-                    "epub-test"
+                    "accessibility" 
                 ]
             },
             "links": [
                 {
                     "type": "application/epub+zip",
                     "rel": "http://opds-spec.org/acquisition/open-access",
-                    "href": "https://github.com/w3c/epub-tests/raw/main/tests/lay-fxl-xhtml-icb.epub"
+                    "href": "https://github.com/edrlab/thorium-reader-epub-tests/raw/main/Rare_EPUB_test_suit/a11y_metadata.epub"
                 }
             ],
             "images": [
                 {
-                    "href": "https://w3c.github.io/epub-tests/opds/test_cover.png",
+                    "href": "",
                     "type": "image/png",
                     "height": 849,
                     "width": 600
                 },
                 {
-                    "href": "https://w3c.github.io/epub-tests/opds/test_cover.svg",
+                    "href": "",
                     "type": "image/svg"
                 }
             ]
