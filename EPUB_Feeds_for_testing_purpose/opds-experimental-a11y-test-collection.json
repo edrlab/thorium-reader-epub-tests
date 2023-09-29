@@ -30,19 +30,7 @@
                     "rel": "http://opds-spec.org/acquisition/open-access",
                     "href": "https://github.com/daisy/transitiontoepub/raw/main/dpub-aria-testing/content/DPUB-ARIA-tests.epub"
                 }
-            ],
-            // "images": [
-            //     {
-            //         "href": "",
-            //         "type": "image/png",
-            //         "height": 849,
-            //         "width": 600
-            //     },
-            //     {
-            //         "href": "",
-            //         "type": "image/svg"
-            //     }
-            // ]
+            ]
         }
     ]
 }
