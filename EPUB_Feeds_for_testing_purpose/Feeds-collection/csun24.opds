@@ -1,0 +1,284 @@
+{
+    "metadata": {
+        "title": "CSUN 2024 Conference Materials"
+    },
+    "links": [
+        {
+            "href": "https://dl.daisy.org/web/event/csun2023/opds/opds.json",
+            "type": "application/opds+json",
+            "rel": "self"
+        }
+    ],
+    "publications": [
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "Preconference Sessions 2023",
+                "title": "Preconference Sessions 2023",
+                "author": "CSUN Center on Disabilities",
+                "description": "",
+                "collection": "csun-conference-2023",
+                "modified": "2024-02-22T00:00:00Z",
+                "publisher": "DAISY Consortium"
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/Preconference.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/PRE.jpg",
+                    "type": "image/jpeg",
+                    "height": 600,
+                    "width": 400
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "Featured Presentations 2023",
+                "title": "Featured Presentations 2023",
+                "author": "CSUN Center on Disabilities",
+                "description": "",
+                "collection": "csun-conference-2023",
+                "modified": "2024-02-22T00:00:00Z",
+                "publisher": "DAISY Consortium"
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/FeaturedPresentations.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/FEA.jpg",
+                    "type": "image/jpeg",
+                    "height": 600,
+                    "width": 400
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "Combined General Sessions 2023",
+                "title": "Combined General Sessions 2023",
+                "author": "CSUN Center on Disabilities",
+                "description": "",
+                "collection": "csun-conference-2023",
+                "modified": "2024-02-22T00:00:00Z",
+                "publisher": "DAISY Consortium"
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/Sessions.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/GEN.jpg",
+                    "type": "image/jpeg",
+                    "height": 600,
+                    "width": 400
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "Tuesday General Sessions 2023",
+                "title": "Tuesday General Sessions 2023",
+                "author": "CSUN Center on Disabilities",
+                "description": "",
+                "collection": "csun-conference-2023",
+                "modified": "2024-02-22T00:00:00Z",
+                "publisher": "DAISY Consortium"
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/Tuesday.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/TUE.jpg",
+                    "type": "image/jpeg",
+                    "height": 600,
+                    "width": 400
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "Wednesday General Sessions 2023",
+                "title": "Wednesday General Sessions 2023",
+                "author": "CSUN Center on Disabilities",
+                "description": "",
+                "collection": "csun-conference-2023",
+                "modified": "2024-02-22T00:00:00Z",
+                "publisher": "DAISY Consortium"
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/Wednesday.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/WED.jpg",
+                    "type": "image/jpeg",
+                    "height": 600,
+                    "width": 400
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "Thursday General Sessions 2023",
+                "title": "Thursday General Sessions 2023",
+                "author": "CSUN Center on Disabilities",
+                "description": "",
+                "collection": "csun-conference-2023",
+                "modified": "2024-02-22T00:00:00Z",
+                "publisher": "DAISY Consortium"
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/Thursday.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/THU.jpg",
+                    "type": "image/jpeg",
+                    "height": 600,
+                    "width": 400
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "Friday General Sessions 2023",
+                "title": "Friday General Sessions 2023",
+                "author": "CSUN Center on Disabilities",
+                "description": "",
+                "collection": "csun-conference-2023",
+                "modified": "2024-02-22T00:00:00Z",
+                "publisher": "DAISY Consortium"
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/Friday.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/FRI.jpg",
+                    "type": "image/jpeg",
+                    "height": 600,
+                    "width": 400
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "Speaker Index 2023",
+                "title": "Speaker Index 2023",
+                "author": "CSUN Center on Disabilities",
+                "description": "",
+                "collection": "csun-conference-2023",
+                "modified": "2024-02-22T00:00:00Z",
+                "publisher": "DAISY Consortium"
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/SpeakerIndex.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/SPK.jpg",
+                    "type": "image/jpeg",
+                    "height": 600,
+                    "width": 400
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "Exhibitors 2023",
+                "title": "Exhibitors 2023",
+                "author": "CSUN Center on Disabilities",
+                "description": "",
+                "collection": "csun-conference-2023",
+                "modified": "2024-02-22T00:00:00Z",
+                "publisher": "DAISY Consortium"
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/Exhibitors.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/EXI.jpg",
+                    "type": "image/jpeg",
+                    "height": 600,
+                    "width": 400
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "Advertisements 2023",
+                "title": "Advertisements 2023",
+                "author": "CSUN Center on Disabilities",
+                "description": "",
+                "collection": "csun-conference-2023",
+                "modified": "2024-02-22T00:00:00Z",
+                "publisher": "DAISY Consortium"
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/Advertisements.epub"
+                }
+            ],
+            "images": [
+                {
+                    "href": "https://dl.daisy.org/web/event/csun2023/opds/ADV.jpg",
+                    "type": "image/jpeg",
+                    "height": 600,
+                    "width": 400
+                }
+            ]
+        }
+    ]
+}
