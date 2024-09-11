@@ -14,7 +14,7 @@
         {
             "metadata": {
                 "@type": "http://schema.org/Book",
-                "identifier": "https://github.com/edrlab/thorium-reader-epub-tests/blob/3adbf0123423ad979d33bcd3d6204e978a9c01c6/Rare_EPUB_test_suit/a11y_metadata/package.opf#L66",
+                "identifier": "urn:thorium-test-a11ymetadata",
                 "title": "Test A11Y metadata display : all values",
                 "language": "en-GB",
                 "schema:encodingFormat": "application/epub+zip",
