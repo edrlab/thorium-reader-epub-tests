@@ -121,7 +121,8 @@
                           "unknownMotionSimulationHazard",
                           "unknownSoundHazard"
                         ]
-            },
+            }
+        },
             "links": [
                 {
                     "type": "application/epub+zip",
@@ -129,7 +130,7 @@
                     "href": "https://rawcdn.githack.com/edrlab/thorium-reader-epub-tests/main/Rare_EPUB_test_suit/a11y_metadata.epub"
                 }
             ]
-              }
+
             }
     ]
 }
