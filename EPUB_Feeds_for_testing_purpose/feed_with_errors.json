@@ -1,0 +1,131 @@
+{
+    "metadata": {
+        "title": "Thorium Reader Rare EPUB test suit"
+    },
+    "links": [
+        {
+            "href": "https://rawcdn.githack.com/edrlab/thorium-reader-epub-tests/main/EPUB_Feeds_for_testing_purpose/opds-rare-epub-suit.json",
+            "type": "application/opds+json",
+            "rel": "self"
+        }
+    ],
+    
+    "publications": [
+        {
+            "metadata": {
+                "@type": "http://schema.org/Book",
+                "identifier": "https://github.com/edrlab/thorium-reader-epub-tests/blob/3adbf0123423ad979d33bcd3d6204e978a9c01c6/Rare_EPUB_test_suit/a11y_metadata/package.opf#L66",
+                "title": "Test A11Y metadata display : all values",
+                "author": "Gautier Chomel",
+                "description": "An EPUB for testing display of accessibility metadata",
+                "collection": "Rare test suite",
+                "modified": "2022-10-30T12:45:58Z",
+                "publisher": "EDRLab",
+                "subject": [
+                    "rare-epub-test"
+                ],
+                "accessibility": {
+                    "conformsTo":  "http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa"
+                    },
+                    "certification": {
+                        "certifiedBy":  "string",
+                        "credential":  "string",
+                        "report":  "string"
+                    },
+                    "summary": "string",
+                    "accessMode": 
+                     [
+                          "auditory",
+                          "chartOnVisual",
+                          "chemOnVisual",
+                          "colorDependent",
+                          "diagramOnVisual",
+                          "mathOnVisual",
+                          "musicOnVisual",
+                          "tactile",
+                          "textOnVisual",
+                          "textual",
+                          "visual"
+                        ],
+                     "accessModeSufficient":  
+                     [
+                            "auditory",
+                            "tactile",
+                            "textual",
+                            "visual"
+                          ],
+                          
+                    "feature": 
+                     [
+                          "annotations",
+                          "ARIA",
+                          "bookmarks",
+                          "index",
+                          "pageBreakMarkers",
+                          "printPageNumbers",
+                          "pageNavigation",
+                          "readingOrder",
+                          "structuralNavigation",
+                          "tableOfContents",
+                          "taggedPDF",
+                          "alternativeText",
+                          "audioDescription",
+                          "closeCaptions",
+                          "captions",
+                          "describedMath",
+                          "longDescription",
+                          "openCaptions",
+                          "signLanguage",
+                          "transcript",
+                          "signLanguage",
+                          "transcript",
+                          "displayTransformability",
+                          "synchronizedAudioText",
+                          "timingControl",
+                          "unlocked",
+                          "ChemML",
+                          "latex",
+                          "latex-chemistry",
+                          "MathML",
+                          "MathML-chemistry",
+                          "ttsMarkup",
+                          "highContrastAudio",
+                          "highContrastDisplay",
+                          "largePrint",
+                          "braille",
+                          "tactileGraphic",
+                          "tactileObject",
+                          "fullRubyAnnotations",
+                          "horizontalWriting",
+                          "rubyAnnotations",
+                          "verticalWriting",
+                          "withAdditionalWordSegmentation",
+                          "withoutAdditionalWordSegmentation",
+                          "none",
+                          "uknown"
+                        ],
+                    "hazard": 
+                     [
+                          "flashing",
+                          "motionSimulation",
+                          "sound",
+                          "none",
+                          "noFlashingHazard",
+                          "noMotionSimulationHazard",
+                          "noSoundHazard",
+                          "unknown",
+                          "unknownFlashingHazard",
+                          "unknownMotionSimulationHazard",
+                          "unknownSoundHazard"
+                        ]
+            },
+            "links": [
+                {
+                    "type": "application/epub+zip",
+                    "rel": "http://opds-spec.org/acquisition/open-access",
+                    "href": "https://rawcdn.githack.com/edrlab/thorium-reader-epub-tests/main/Rare_EPUB_test_suit/a11y_metadata.epub"
+                }
+            ]
+              }
+    ]
+}
