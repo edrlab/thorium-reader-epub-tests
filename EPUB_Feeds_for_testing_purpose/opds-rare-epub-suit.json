@@ -16,6 +16,11 @@
                 "@type": "http://schema.org/Book",
                 "identifier": "https://github.com/edrlab/thorium-reader-epub-tests/blob/3adbf0123423ad979d33bcd3d6204e978a9c01c6/Rare_EPUB_test_suit/a11y_metadata/package.opf#L66",
                 "title": "Test A11Y metadata display : all values",
+                "language": "en-GB",
+                "schema:encodingFormat": "application/epub+zip",
+                "presentation": {
+                    "layout": "reflowable"
+                },
                 "author": "Gautier Chomel",
                 "description": "An EPUB for testing display of accessibility metadata",
                 "collection": "Rare test suite",
@@ -26,8 +31,9 @@
                 ],
                 "accessibility": {
                     "conformsTo":  
-                        ["http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa",
-                        "https://www.w3.org/TR/epub-a11y-11/"
+                        [
+                            "http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa",
+                            "https://www.w3.org/TR/epub-a11y-11/"
                         ],
                     "certification": 
                         {
@@ -130,7 +136,6 @@
                     "href": "https://rawcdn.githack.com/edrlab/thorium-reader-epub-tests/main/Rare_EPUB_test_suit/a11y_metadata.epub"
                 }
             ]
-
-            }
+        }
     ]
 }
