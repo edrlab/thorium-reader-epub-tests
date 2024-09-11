@@ -126,7 +126,7 @@
                 {
                     "type": "application/epub+zip",
                     "rel": "http://opds-spec.org/acquisition/open-access",
-                    "href": "https://github.com/edrlab/thorium-reader-epub-tests/raw/main/Rare_EPUB_test_suit/a11y_metadata.epub"
+                    "href": "https://rawcdn.githack.com/edrlab/thorium-reader-epub-tests/main/Rare_EPUB_test_suit/a11y_metadata.epub"
                 }
             ]
               }
