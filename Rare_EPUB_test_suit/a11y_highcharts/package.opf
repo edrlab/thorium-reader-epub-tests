@@ -40,14 +40,11 @@
     <item id="nav.xhtml" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
     <item id="Section0001.xhtml" href="Section0001.xhtml" media-type="application/xhtml+xml"/>
-    <item id="Section0002.xhtml" href="Section0002.xhtml" media-type="application/xhtml+xml"/>
-   <item id="Section0003.xhtml" href="Section0003.xhtml" media-type="application/xhtml+xml"/>
+
    </manifest>
   <spine>
     <itemref idref="cover" linear="no"/>
     <itemref idref="Section0001.xhtml"/>
-    <itemref idref="Section0002.xhtml"/>
     <itemref idref="nav.xhtml" linear="yes"/>
-    <itemref idref="Section0003.xhtml"/>
   </spine>
 </package>

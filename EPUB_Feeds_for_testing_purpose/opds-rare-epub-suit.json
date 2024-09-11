@@ -4,45 +4,131 @@
     },
     "links": [
         {
-            "href": "https://github.com/edrlab/thorium-reader-epub-tests/tree/main/EPUB%20Feeds%20for%20test%20purpose",
+            "href": "https://rawcdn.githack.com/edrlab/thorium-reader-epub-tests/main/EPUB_Feeds_for_test_purpose/opds-rare-epub-suit.json",
             "type": "application/opds+json",
             "rel": "self"
         }
     ],
+    
     "publications": [
         {
             "metadata": {
                 "@type": "http://schema.org/Book",
-                "identifier": "https://github.com/w3c/epub-tests/tree/main/tests/lay-fxl-xhtml-icb",
-                "title": "lay-fxl-xhtml-icb",
-                "author": "Dave Cramer",
-                "description": "XHTML content outside the initial containing block (ICB) is clipped.",
-                "collection": "Fixed Layout",
-                "modified": "2022-10-04T00:00:00Z",
-                "publisher": "W3C",
+                "identifier": "https://github.com/edrlab/thorium-reader-epub-tests/blob/3adbf0123423ad979d33bcd3d6204e978a9c01c6/Rare_EPUB_test_suit/a11y_metadata/package.opf#L66",
+                "title": "Test A11Y metadata display : all values",
+                "author": "Gautier Chomel",
+                "description": "An EPUB for testing display of accessibility metadata",
+                "collection": "Rare test suite",
+                "modified": "2022-10-30T12:45:58Z",
+                "publisher": "EDRLab",
                 "subject": [
-                    "epub-test"
-                ]
+                    "rare-epub-test"
+                ],
+                "accessibility": {
+                    "conformsTo":  "http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa"
+                    },
+                    "certification": {
+                        "certifiedBy":  "string",
+                        "credential":  "string",
+                        "report":  "string"
+                    },
+                    "summary": "string",
+                    "accessMode": 
+                     [
+                          "auditory",
+                          "chartOnVisual",
+                          "chemOnVisual",
+                          "colorDependent",
+                          "diagramOnVisual",
+                          "mathOnVisual",
+                          "musicOnVisual",
+                          "tactile",
+                          "textOnVisual",
+                          "textual",
+                          "visual"
+                        ],
+                    "accessModeSufficient":  
+                            "textual",
+
+                     "accessModeSufficient":  
+                     [
+                            "auditory",
+                            "tactile",
+                            "textual",
+                            "visual"
+                          ],
+                          
+                    "feature": 
+                     [
+                          "annotations",
+                          "ARIA",
+                          "bookmarks",
+                          "index",
+                          "pageBreakMarkers",
+                          "printPageNumbers",
+                          "pageNavigation",
+                          "readingOrder",
+                          "structuralNavigation",
+                          "tableOfContents",
+                          "taggedPDF",
+                          "alternativeText",
+                          "audioDescription",
+                          "closeCaptions",
+                          "captions",
+                          "describedMath",
+                          "longDescription",
+                          "openCaptions",
+                          "signLanguage",
+                          "transcript",
+                          "signLanguage",
+                          "transcript",
+                          "displayTransformability",
+                          "synchronizedAudioText",
+                          "timingControl",
+                          "unlocked",
+                          "ChemML",
+                          "latex",
+                          "latex-chemistry",
+                          "MathML",
+                          "MathML-chemistry",
+                          "ttsMarkup",
+                          "highContrastAudio",
+                          "highContrastDisplay",
+                          "largePrint",
+                          "braille",
+                          "tactileGraphic",
+                          "tactileObject",
+                          "fullRubyAnnotations",
+                          "horizontalWriting",
+                          "rubyAnnotations",
+                          "verticalWriting",
+                          "withAdditionalWordSegmentation",
+                          "withoutAdditionalWordSegmentation",
+                          "none",
+                          "uknown"
+                        ],
+                    "hazard": 
+                     [
+                          "flashing",
+                          "motionSimulation",
+                          "sound",
+                          "none",
+                          "noFlashingHazard",
+                          "noMotionSimulationHazard",
+                          "noSoundHazard",
+                          "unknown",
+                          "unknownFlashingHazard",
+                          "unknownMotionSimulationHazard",
+                          "unknownSoundHazard"
+                        ]
             },
             "links": [
                 {
                     "type": "application/epub+zip",
                     "rel": "http://opds-spec.org/acquisition/open-access",
-                    "href": "https://github.com/w3c/epub-tests/raw/main/tests/lay-fxl-xhtml-icb.epub"
-                }
-            ],
-            "images": [
-                {
-                    "href": "https://w3c.github.io/epub-tests/opds/test_cover.png",
-                    "type": "image/png",
-                    "height": 849,
-                    "width": 600
-                },
-                {
-                    "href": "https://w3c.github.io/epub-tests/opds/test_cover.svg",
-                    "type": "image/svg"
+                    "href": "https://github.com/edrlab/thorium-reader-epub-tests/raw/main/Rare_EPUB_test_suit/a11y_metadata.epub"
                 }
             ]
-        }
+              }
     ]
 }
