@@ -25,13 +25,17 @@
                     "rare-epub-test"
                 ],
                 "accessibility": {
-                    "conformsTo":  "http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa",
-                    
-                    "certification": {
+                    "conformsTo":  
+                        ["http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa",
+                        "https://www.w3.org/TR/epub-a11y-11/"
+                        ],
+                    "certification": [
+                        {
                         "certifiedBy":  "string",
                         "credential":  "string",
                         "report":  "string"
-                    },
+                        }
+                    ],
                     "summary": "string",
                     "accessMode": 
                      [
