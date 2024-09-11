@@ -4,7 +4,7 @@
     },
     "links": [
         {
-            "href": "https://rawcdn.githack.com/edrlab/thorium-reader-epub-tests/main/EPUB_Feeds_for_test_purpose/opds-rare-epub-suit.json",
+            "href": "https://rawcdn.githack.com/edrlab/thorium-reader-epub-tests/main/EPUB_Feeds_for_testing_purpose/opds-rare-epub-suit.json",
             "type": "application/opds+json",
             "rel": "self"
         }
@@ -47,9 +47,6 @@
                           "textual",
                           "visual"
                         ],
-                    "accessModeSufficient":  
-                            "textual",
-
                      "accessModeSufficient":  
                      [
                             "auditory",
