@@ -12,8 +12,9 @@
     <link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
     <meta id="conf" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.1 Level AA</meta>
     <link href="http://www.example.com/a11y/report/9780000000001" refines="#certifier" rel="a11y:certifierReport"/>
-    <meta property="a11y:certifiedBy">EDRLab</meta>
+    <meta property="a11y:certifiedBy" id="certifier">EDRLab</meta>
     <meta property="a11y:certifierCredential">Certifier credential</meta>
+     <meta property="dcterms:date" refines="#certifier">2021-09-07</meta>
     <meta property="schema:accessMode">textual</meta>
     <meta property="schema:accessMode">visual</meta>
     <meta property="schema:accessModeSufficient">visual</meta>
@@ -45,6 +46,7 @@
     <meta property="schema:accessibilityFeature">none</meta>
     <meta property="schema:accessibilityFeature">pageNavigation</meta>
     <meta property="schema:accessibilityFeature">printPageNumbers</meta>
+    <meta property="schema:accessibilityFeature">pageBreakMarkers</meta>
     <meta property="schema:accessibilityFeature">rubyAnnotations</meta>
     <meta property="schema:accessibilityFeature">annotations</meta>
     <meta property="schema:accessibilityFeature">signLanguage</meta>
