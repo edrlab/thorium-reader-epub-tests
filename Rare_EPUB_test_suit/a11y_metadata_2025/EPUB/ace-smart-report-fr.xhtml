@@ -1,11 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html lang="fr">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="fr" lang="fr">
 	<head>
 		<title>Rapport de conformité d'accessibilité EPUB pour Test A11Y metadata display : all values, 2025</title>
 		<meta charset="utf-8"/>
-		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap4.min.css"/>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
-		<link rel="stylesheet" type="text/css" href="https://smart.daisy.org/css/report.css"/>		<link rel="stylesheet" type="text/css" href="https://smart.daisy.org/css/tabs.css"/>
+		<link rel="stylesheet" type="text/css" href="style/bootstrap4.css"/>
+		<link rel="stylesheet" href="style/bootstrapmin4.css"/>
+		<link rel="stylesheet" type="text/css" href="style/daisyreport.css"/>
+				<link rel="stylesheet" type="text/css" href="style/daisytabs.css"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	</head>
 	<body typeof="Book" vocab="https://schema.org">
@@ -34,7 +36,7 @@
 <h3>Résumé</h3>
 <div class="summaryTable">
 <div id="conformance-result">
-<div class="label">Conformité :</div> <div class="value pass" property="dcterms:conformsTo">Valide EPUB & WCAG AA</div>
+<div class="label">Conformité :</div> <div class="value pass" property="dcterms:conformsTo">Valide EPUB et WCAG AA</div>
 </div>
 <div id="accessibilitySummary">
 <div class="label">Résumé d'accessibilité :</div> <div class="value" property="accessibilitySummary">Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles ».</div>
@@ -380,30 +382,13 @@
 </div>
 <div id="modified">
 <div class="label">Date du raport :</div> <div class="value">22 novembre 2021 ‒ 17:23:32</div>
-</div></section>
+</div>
+</section>
 </main>
-		
-		<footer><hr/>
-			<p id="timestamp">Généré le <span id="date-created">22 novembre 2021 ‒ 17:23:32</span> en utilisant <a href="https://smart.daisy.org">Ace SMART</a>
-</p>
-			<p>
-<a href="https://daisy.org">
-<script pagespeed_no_defer="">//<![CDATA[
-(function(){var g=this,h=function(b,d){var a=b.split("."),c=g;a[0]in c||!c.execScript||c.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===d?c[e]?c=c[e]:c=c[e]={}:c[e]=d};var l=function(b){var d=b.length;if(0<d){for(var a=Array(d),c=0;c<d;c++)a[c]=b[c];return a}return[]};var m=function(b){var d=window;if(d.addEventListener)d.addEventListener("load",b,!1);else if(d.attachEvent)d.attachEvent("onload",b);else{var a=d.onload;d.onload=function(){b.call(this);a&&a.call(this)}}};var n,p=function(b,d,a,c,e){this.f=b;this.h=d;this.i=a;this.c=e;this.e={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.g=c;this.b={};this.a=[];this.d={}},q=function(b,d){var a,c,e=d.getAttribute("pagespeed_url_hash");if(a=e&&!(e in b.d))if(0>=d.offsetWidth&&0>=d.offsetHeight)a=!1;else{c=d.getBoundingClientRect();var f=document.body;a=c.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);c=c.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+c;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.e.height&&c<=b.e.width)}a&&(b.a.push(e),b.d[e]=!0)};p.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&q(this,b)};h("pagespeed.CriticalImages.checkImageForCriticality",function(b){n.checkImageForCriticality(b)});h("pagespeed.CriticalImages.checkCriticalImages",function(){r(n)});var r=function(b){b.b={};for(var d=["IMG","INPUT"],a=[],c=0;c<d.length;++c)a=a.concat(l(document.getElementsByTagName(d[c])));if(0!=a.length&&a[0].getBoundingClientRect){for(c=0;d=a[c];++c)q(b,d);a="oh="+b.i;b.c&&(a+="&n="+b.c);if(d=0!=b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),c=1;c<b.a.length;++c){var e=","+encodeURIComponent(b.a[c]);131072>=a.length+e.length&&(a+=e)}b.g&&(e="&rd="+encodeURIComponent(JSON.stringify(s())),131072>=a.length+e.length&&(a+=e),d=!0);t=a;if(d){c=b.f;b=b.h;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(k){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(u){}}f&&(f.open("POST",c+(-1==c.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}},s=function(){var b={},d=document.getElementsByTagName("IMG");if(0==d.length)return{};var a=d[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var c=0;a=d[c];++c){var e=a.getAttribute("pagespeed_url_hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].k&&a.height>=b[e].j)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b},t="";h("pagespeed.CriticalImages.getBeaconData",function(){return t});h("pagespeed.CriticalImages.Run",function(b,d,a,c,e,f){var k=new p(b,d,a,e,f);n=k;c&&m(function(){window.setTimeout(function(){r(k)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://smart.daisy.org/report.php','YddRYU7ik1',true,false,'BNElRhnDBHY');
-//]]>
-</script>
-<img src="https://smart.daisy.org/images/daisy_logo.gif" alt="DAISY" pagespeed_url_hash="1120195354" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
-</a>
-</p>
-		</footer>
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
-		<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js">
-</script>
-		<script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js">
-</script>
-		<script>$(document).ready(function(){$('#conformance table').DataTable({"paging":false,"info":false});});</script>
-		<script src="https://smart.daisy.org/js/a11ytabs.js">
-</script>
-	</div></body>
+<footer>
+	<hr/>
+	<p id="timestamp">Généré le <span id="date-created">22 novembre 2021 ‒ 17:23:32</span> en utilisant <a href="https://smart.daisy.org">Ace SMART</a>
+	</p>
+</footer>
+</body>
 </html>

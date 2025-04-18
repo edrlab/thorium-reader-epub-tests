@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package version="3.0" unique-identifier="pub-identifier" xml:lang="en" xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
   <metadata>
-    <dc:title id="pub-title">Test A11Y metadata display : all values, 2024</dc:title>
+    <dc:title id="pub-title">Test A11Y metadata display : all values, 2025</dc:title>
     <dc:language id="pub-language">en</dc:language>
     <dc:date>2022-10-20</dc:date>
-    <meta property="dcterms:modified">2024-12-06T12:45:58Z</meta>
+    <meta property="dcterms:modified">2025-04-18T12:45:58Z</meta>
     <dc:creator id="pub-creator12">EDRLab</dc:creator>
     <dc:contributor>Gautier Chomel</dc:contributor>
     <dc:publisher>EDRLab</dc:publisher>
-    <link href="/EPUB/ace-smart-report-fr.html" rel="a11y:certifierReport"/>
+    <dc:rights>EDRLab</dc:rights>
+    <dc:identifier id="pub-identifier">urn:thorium-test-a11ymetadata-2025-1</dc:identifier>
     <link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
-    <meta id="conf" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.1 Level AA</meta>
-    <link href="http://www.example.com/a11y/report/9780000000001" refines="#certifier" rel="a11y:certifierReport"/>
+    <meta id="conformityoutside" property="dcterms:conformsTo">EPUB Accessibility 1.0 - WCAG 2.1 Level AA</meta>
+    <meta name="a11y:certifierReport" content="https://example.com/reports/a11y/pub.html"/>
+    <meta id="conformityinside" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
+    <link href="EPUB/ace-smart-report-fr.xhtml"  media-type="application/xhtml+xml" refines="#conformityinside" rel="a11y:certifierReport"/>
     <meta property="a11y:certifiedBy" id="certifier">EDRLab</meta>
     <meta property="a11y:certifierCredential">Certifier credential</meta>
      <meta property="dcterms:date" refines="#certifier">2021-09-07</meta>
@@ -65,23 +68,20 @@
     <meta property="a11y:exemption">eaa-microenterprise</meta>
     <meta property="a11y:exemption">eaa-fundamental-alteration</meta>
     <meta property="a11y:exemption">eaa-disproportionate-burden</meta>
-    <meta/>
-    <meta/>
-    <dc:rights>EDRLab</dc:rights>
-    <dc:identifier id="pub-identifier">urn:thorium-test-a11ymetadata-2024</dc:identifier>
-    <link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
-    <meta content="1.4.3" name="Sigil version"/>
   </metadata>
   <manifest>
-    <item id="nav.xhtml" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
-    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
-    <item id="Section0001.xhtml" href="Section0001.xhtml" media-type="application/xhtml+xml"/>
-    <item id="content.xhtml" href="content.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav.xhtml" href="EPUB/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="cover" href="EPUB/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="content.xhtml" href="EPUB/content.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ace-smart-report-fr.xhtml" href="EPUB/ace-smart-report-fr.xhtml" media-type="application/xhtml+xml"/>
+    <item id="bootstrap4" href="EPUB/style/bootstrap4.css" media-type="text/css"/>
+    <item id="bootstrapmin4" href="EPUB/style/bootstrapmin4.css" media-type="text/css"/>
+    <item id="daisytabs" href="EPUB/style/daisytabs.css" media-type="text/css"/>
+    <item id="daisyreport" href="EPUB/style/daisyreport.css" media-type="text/css"/>
   </manifest>
   <spine>
-    <itemref idref="cover" linear="no"/>
+    <itemref idref="cover" linear="yes"/>
     <itemref idref="content.xhtml"/>
-    <itemref idref="Section0001.xhtml"/>
     <itemref idref="ace-smart-report-fr.xhtml"/>
     <itemref idref="nav.xhtml" linear="yes"/>
   </spine>

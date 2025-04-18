@@ -1,0 +1,99 @@
+/* tabs */
+
+section.js-tabcontent[aria-hidden = true]{
+	display: none;
+}
+
+ul.js-tablist{
+	padding: 0.5rem 0 0 3rem;
+	margin: -0.5rem 0 0 -3rem;
+	border-bottom: 0.1rem solid rgb(211,211,211);
+	background-color: rgb(251,251,251);
+}
+
+li.js-tablist__item {
+	width: 11.5rem;
+	text-align: center;
+	display: inline-block;
+	padding: 0.7rem;
+	font-size: 1.325rem;
+	line-height: 1.325rem;
+	border-bottom: 0.1rem solid rgb(211,211,211);
+	cursor: pointer;
+	margin: 0 0 -0.1rem -0.5rem;
+}
+
+li.active {
+	border-bottom: none;
+	border-top: 0.3rem solid rgb(0, 0, 220);
+	border-left: 0.1rem solid rgb(211,211,211);
+	border-right: 0.1rem solid rgb(211,211,211);
+	height: 1.4rem;
+	background-color: rgb(255,255,255);
+}
+
+li.js-tablist__item a{
+	color: rgb(0, 0, 160);
+	display: inline-block;
+	width: 10.5rem;
+}
+
+li.js-tablist__item a:hover{
+	color: rgb(238, 0, 0);
+}
+
+
+
+/* optimizations for phone screens */
+@media only screen
+ and (max-device-width : 480px)
+ and (orientation : portrait){
+
+	h1{
+		font-size: 1.2rem;
+	}
+
+	.js-tabcontent > h2 {
+		border-top: 0.2rem solid black;
+		margin-top: 0;
+		padding-top: 1rem;
+	}
+
+	ul.js-tablist{
+		display: block;
+		width: 100%
+	}
+	
+	li.js-tablist__item {
+		width: 27%;
+		display: inline-block;
+		background-color: rgb(251, 251, 251);
+		border-radius: 0 0 0 0;
+	}
+
+	li.active{
+		background-color: rgb(251, 251, 251);
+		border-left: 0.3rem solid rgb(0, 0, 220);
+		border-top: none;
+	}
+
+	main.js-tabs{
+		padding-left: 0;
+	}
+
+	ul.js-tablist{
+		margin-left: 0;
+	}
+}
+
+@media only screen
+ and (max-device-width : 640px)
+ and (orientation : landscape){
+	main.js-tabs{
+		padding-left: 0;
+	}
+	ul.js-tablist{
+		top: -3.6rem;
+		left: 1rem;
+	}
+}
