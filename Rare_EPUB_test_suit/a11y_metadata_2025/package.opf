@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="pub-identifier" xml:lang="en" xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <metadata>
+    <dc:title id="pub-title">Test A11Y metadata display : all values, 2025</dc:title>
+    <dc:language id="pub-language">en</dc:language>
+    <dc:date>2022-10-20</dc:date>
+    <meta property="dcterms:modified">2025-04-18T12:45:58Z</meta>
+    <dc:creator id="pub-creator12">EDRLab</dc:creator>
+    <dc:contributor>Gautier Chomel</dc:contributor>
+    <dc:publisher>EDRLab</dc:publisher>
+    <dc:rights>EDRLab</dc:rights>
+    <dc:identifier id="pub-identifier">urn:thorium-test-a11ymetadata-2025-1</dc:identifier>
+    <link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
+    <meta id="conformityoutside" property="dcterms:conformsTo">EPUB Accessibility 1.0 - WCAG 2.1 Level AA</meta>
+    <meta name="a11y:certifierReport" content="https://example.com/reports/a11y/pub.html"/>
+    <meta id="conformityinside" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
+    <link href="EPUB/ace-smart-report-fr.xhtml"  media-type="application/xhtml+xml" refines="#conformityinside" rel="a11y:certifierReport"/>
+    <meta property="a11y:certifiedBy" id="certifier">EDRLab</meta>
+    <meta property="a11y:certifierCredential">Certifier credential</meta>
+     <meta property="dcterms:date" refines="#certifier">2021-09-07</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">visual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessModeSufficient">auditory</meta>
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilityHazard">flashing</meta>
+    <meta property="schema:accessibilityHazard">noFlashingHazard</meta>
+    <meta property="schema:accessibilityHazard">MotionSimulation</meta>
+    <meta property="schema:accessibilityHazard">noMotionSimulationHazard</meta>
+    <meta property="schema:accessibilityHazard">sound</meta>
+    <meta property="schema:accessibilityHazard">noSoundHazard</meta>
+    <meta property="schema:accessibilityHazard">unknown</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">readingOrder</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">captions</meta>
+    <meta property="schema:accessibilityFeature">braille</meta>
+    <meta property="schema:accessibilityFeature">ChemML</meta>
+    <meta property="schema:accessibilityFeature">describedMath</meta>
+    <meta property="schema:accessibilityFeature">displayTransformability</meta>
+    <meta property="schema:accessibilityFeature">highContrastAudio</meta>
+    <meta property="schema:accessibilityFeature">highContrastDisplay</meta>
+    <meta property="schema:accessibilityFeature">index</meta>
+    <meta property="schema:accessibilityFeature">largePrint</meta>
+    <meta property="schema:accessibilityFeature">latex</meta>
+    <meta property="schema:accessibilityFeature">longDescription</meta>
+    <meta property="schema:accessibilityFeature">MathML</meta>
+    <meta property="schema:accessibilityFeature">none</meta>
+    <meta property="schema:accessibilityFeature">pageNavigation</meta>
+    <meta property="schema:accessibilityFeature">printPageNumbers</meta>
+    <meta property="schema:accessibilityFeature">pageBreakMarkers</meta>
+    <meta property="schema:accessibilityFeature">rubyAnnotations</meta>
+    <meta property="schema:accessibilityFeature">annotations</meta>
+    <meta property="schema:accessibilityFeature">signLanguage</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">synchronizedAudioText</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">tactileGraphic</meta>
+    <meta property="schema:accessibilityFeature">tactileObject</meta>
+    <meta property="schema:accessibilityFeature">timingControl</meta>
+    <meta property="schema:accessibilityFeature">transcript</meta>
+    <meta property="schema:accessibilityFeature">ttsMarkup</meta>
+    <meta property="schema:accessibilityFeature">aria</meta>
+    <meta property="schema:accessibilityFeature">unlocked</meta>
+    <meta property="schema:accessibilitySummary">This is the accessibility summary. This EPUB is for testing purposes, accessibility metadata presented are not true but only present to check how they would display into the reading system.</meta>
+    <meta property="schema:accessibilitySummary" xml:lang="fr">Un second résumé en français.</meta>
+    <meta property="a11y:exemption">eaa-microenterprise</meta>
+    <meta property="a11y:exemption">eaa-fundamental-alteration</meta>
+    <meta property="a11y:exemption">eaa-disproportionate-burden</meta>
+  </metadata>
+  <manifest>
+    <item id="nav.xhtml" href="EPUB/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="cover" href="EPUB/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="content.xhtml" href="EPUB/content.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ace-smart-report-fr.xhtml" href="EPUB/ace-smart-report-fr.xhtml" media-type="application/xhtml+xml"/>
+    <item id="bootstrap4" href="EPUB/style/bootstrap4.css" media-type="text/css"/>
+    <item id="bootstrapmin4" href="EPUB/style/bootstrapmin4.css" media-type="text/css"/>
+    <item id="daisytabs" href="EPUB/style/daisytabs.css" media-type="text/css"/>
+    <item id="daisyreport" href="EPUB/style/daisyreport.css" media-type="text/css"/>
+  </manifest>
+  <spine>
+    <itemref idref="cover" linear="yes"/>
+    <itemref idref="content.xhtml"/>
+    <itemref idref="ace-smart-report-fr.xhtml"/>
+    <itemref idref="nav.xhtml" linear="yes"/>
+  </spine>
+</package>
