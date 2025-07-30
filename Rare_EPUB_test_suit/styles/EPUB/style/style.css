@@ -1,0 +1,7 @@
+.capitals {
+  text-transform: uppercase;
+}
+
+.forcedlineheight {
+  line-height: 10px !important;
+}
