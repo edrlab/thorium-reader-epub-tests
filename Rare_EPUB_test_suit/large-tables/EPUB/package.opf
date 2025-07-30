@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId">urn:uuid:3c5060f3-796b-4e04-84a3-7ebfa5cbfa65</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:title>Large tables - Rare epubs</dc:title>
+    <dc:creator opf:role="aut">EDRLab</dc:creator>
+    <dc:publisher>EDRLab</dc:publisher>
+    <dc:description>Test suite for large tables in EPUB</dc:description>
+    <dc:date>2025-07-30T15:19:28Z</dc:date>
+    <meta property="dcterms:modified">2025-07-30T15:19:28Z</meta>
+  </metadata>
+  <manifest>
+    <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="forewords.xhtml" href="Text/forewords.xhtml" media-type="application/xhtml+xml"/>
+    <item id="large-table-hiden-columns.xhtml" href="Text/large-table-hiden-columns.xhtml" media-type="application/xhtml+xml"/>
+    <item id="large-table-no-overflow.xhtml" href="Text/large-table-no-overflow.xhtml" media-type="application/xhtml+xml"/>
+    <item id="large-table-overflow.xhtml" href="Text/large-table-overflow.xhtml" media-type="application/xhtml+xml"/>
+    <item id="largetable.css" href="Styles/largetable.css" media-type="text/css"/>
+  </manifest>
+  <spine>
+    <itemref idref="forewords.xhtml"/>
+    <itemref idref="large-table-overflow.xhtml"/>
+    <itemref idref="large-table-no-overflow.xhtml"/>
+    <itemref idref="large-table-hiden-columns.xhtml"/>
+    <itemref idref="nav.xhtml" linear="no"/>
+  </spine>
+</package>
