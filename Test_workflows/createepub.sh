@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define the input folder containing the EPUB contents
-input_folder="a11y_highcharts"
+input_folder="large-tables"
 
 # Define the output EPUB file name (with the .epub extension)
-output_file="a11y_highcharts.epub"
+output_file="large-tables.epub"
 
 # Change to the parent directory of the input folder
 cd "$(dirname "$input_folder")"
