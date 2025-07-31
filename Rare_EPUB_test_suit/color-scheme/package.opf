@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package version="3.0" unique-identifier="pub-identifier" xml:lang="en" xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
   <metadata>
-    <dc:title id="pub-title">Test A11Y metadata display : all values</dc:title>
+    <dc:title id="pub-title">Test colorscheme</dc:title>
     <dc:language id="pub-language">en</dc:language>
     <dc:date>2025-07-31</dc:date>
     <meta property="dcterms:modified">2022-10-30T12:45:58Z</meta>
@@ -22,4 +22,4 @@
     <itemref idref="content.xhtml"/>
     <itemref idref="nav.xhtml" linear="no"/>
   </spine>
-</package>
+</package>                                                                                                                                                                      

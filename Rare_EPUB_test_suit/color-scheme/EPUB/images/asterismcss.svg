@@ -6,7 +6,7 @@
     enable-background="new 0 0 48 24"
     >
     <style>
-      .svgfill { fill:  var(--USER__textColor);}
+      .svgfill { fill: currentcolor;}
       .svgstroke { fill: var(--USER__backgroundColor);}
       .svgfill:hover { fill: var(--USER__backgroundColor); }
       .svgstroke:hover { fill: var(--USER__textColor); }</style>

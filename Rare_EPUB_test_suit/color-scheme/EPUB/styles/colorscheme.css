@@ -18,7 +18,7 @@ https://readium.org/readium-css/docs/CSS12-user_prefs.html
 
 .usercolor {
   color: var(--USER__backgroundColor);
-  border: 10px solid var(--USER__textColor);
+  border: 10px solid currentcolor;
 }
 
 .userbackground {
