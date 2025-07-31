@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*!
+A CSS to test color shift ebtween scheme */
+@namespace svg "http://www.w3.org/2000/svg";
+html {
+}
+/*
+https://readium.org/readium-css/docs/CSS12-user_prefs.html
+--USER__backgroundColor
+--USER__textColor */
+
+.svgfill {
+  color: var(--USER__textColor);
+}
+.svgstroke {
+  color: var(--USER__backgroundColor);
+}
+
+.usercolor {
+  color: var(--USER__backgroundColor);
+  border: 10px solid var(--USER__textColor);
+}
+
+.userbackground {
+  background-color: var(--USER__textColor);
+}
+
+.control {
+  color: blue;
+  background-color: yellow;
+}
+
+
+/* SVG */

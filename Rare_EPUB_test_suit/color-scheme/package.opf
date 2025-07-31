@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="pub-identifier" xml:lang="en" xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <metadata>
+    <dc:title id="pub-title">Test A11Y metadata display : all values</dc:title>
+    <dc:language id="pub-language">en</dc:language>
+    <dc:date>2025-07-31</dc:date>
+    <meta property="dcterms:modified">2022-10-30T12:45:58Z</meta>
+    <dc:creator id="pub-creator12">EDRLab</dc:creator>
+    <dc:publisher>EDRLab</dc:publisher>
+       <dc:identifier id="pub-identifier">urn:thorium-test-a11ymetadata</dc:identifier>
+    <link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
+  </metadata>
+  <manifest>
+    <item id="nav.xhtml" href="EPUB/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="cover" href="EPUB/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="content.xhtml" href="EPUB/content.xhtml" media-type="application/xhtml+xml"/>
+    <item id="colorscheme.css" href="EPUB/styles/colorscheme.css" media-type="text/css" />
+		<item id="asterism.svg" href="EPUB/images/asterismcss.svg" media-type="image/svg+xml" />
+  </manifest>
+  <spine>
+    <itemref idref="cover" linear="no"/>
+    <itemref idref="content.xhtml"/>
+    <itemref idref="nav.xhtml" linear="no"/>
+  </spine>
+</package>
