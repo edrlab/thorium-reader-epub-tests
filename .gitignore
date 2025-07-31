@@ -3,8 +3,9 @@ w/*
 .DS_Store
 .obsidian/*
 Test_workflows/epubcheck-5.0.0/*
+Test_workflows/epubcheck-5.2.1/*
 Test_workflows/w/*
 Test_workflows/reports/*
 Test_workflows/testing/*
 fails-files/*
-GautierOwnNotes.md
+Notes.md
