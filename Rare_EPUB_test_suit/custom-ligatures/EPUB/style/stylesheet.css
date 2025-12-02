@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "fontwithcustomligatures";
+  src: url("../fonts/fontwithcustomligatures.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "fontwithcustomligatures", serif;
+  font-size: 1em;
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
+  line-height: 1.2;
+  margin: 2em;
+}
