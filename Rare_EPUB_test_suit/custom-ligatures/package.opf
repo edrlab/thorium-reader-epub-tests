@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Test for custom ligatures</dc:title>
+    <dc:creator file-as="Weir, Andy" role="aut">edrlab</dc:creator>
+    <dc:date>2025-12-02</dc:date>
+    <dc:language>en</dc:language>
+    <dc:identifier id="BookId">rareepubtestsuite-customligatures</dc:identifier>
+    <dc:date event="modification">2025-12-02</dc:date>
+    <dc:date opf:event="modification" xmlns:opf="http://www.idpf.org/2007/opf">2025-12-02</dc:date>
+  </metadata>
+  <manifest>
+    <item id="ligatures" href="EPUB/text/ligatures.xhtml" media-type="application/xhtml+xml"/>
+    <item id="css" href="EPUB/style/stylesheet.css" media-type="text/css"/>
+    <item id="fontwithcustomligatures" href="EPUB/fonts/fontwithcustomligatures.otf" media-type="font/otf"/>
+  </manifest>
+  <spine>
+    <itemref idref="ligatures"/>
+  </spine>
+</package>
